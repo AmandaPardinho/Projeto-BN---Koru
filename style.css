@@ -1,3 +1,5 @@
+@media screen and (max-width: 480px) {
+
 body{
     background: linear-gradient(#f4f7fb, #2589BD);
     color: #f4f7fb;
@@ -68,11 +70,62 @@ body{
 
 .formulario{
     background-color: green;
+    margin: 2rem;
+    padding: 1rem;
+    width: 75%;
 }
 
 .formulario input{
     border-radius: 59;
+    margin: 0.5rem;
+    display: flex;
     
+}
+
+.formulario textarea{
+    display: flex;
+    margin: 8px;
+    width: 94%;
+}
+
+.formulario button{
+    position: relative;
+    left: 40%;
+}
+
+.textfield{
+    width: 94%;
+}
+
+.menuinicial{
+    width: 3rem;
+    height: 3rem;
+    
+}
+
+
+.logo-header{
+    width: 7rem;
+    height: 5rem;
+    display: inline-block;
+    /*position: absolute; */
+    padding: 0.3rem;
+    border: 0.1rem;
+    margin: 0.4rem;
+}
+
+.container{
+    justify-content: space-between;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /*justify-content: right;*/
+    padding: 0.5rem;
+    border: 0.1rem;
+    margin: 0.4rem;
+    border-style: solid;
+    border-width: 0.3rem;
+    border-color: #4cfbb4;
 }
 
 /*.menu-hamburguer{
@@ -188,18 +241,27 @@ socialmedia{
 }
 
 .googleplay{
-    width: 12.75rem;
-    height: 3.75rem;
+    width: 8.75rem;
+    height: 2.75rem;
 }
 
 .applestore{
-    width: 12.75rem;
-    height: 3.75rem;
+    width: 8.75rem;
+    height: 2.75rem;
 }
 
 .lojasapp{
     display: flex;
     align-items: center;
-    
+    padding: 13%;
 
+}
+
+}
+
+@media screen and (min-width: 800px) {
+
+    body{
+        background-color: yellow;
+    }
 }
