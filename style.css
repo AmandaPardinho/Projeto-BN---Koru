@@ -3,7 +3,7 @@ body{
     color: #f4f7fb;
 }
 
-.bannerB{
+/*.bannerB{
     color: #642c93;
     font-size: 3rem;
     font-family: Arial, Helvetica, sans-serif;
@@ -15,16 +15,55 @@ body{
     font-size: 3rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+}*/
+
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0.5rem;
+    border: 0.1rem;
+    margin: 0.4rem;
+    /*border-style: solid;
+    border-width: 0.3rem;
+    border-color: #4cfbb4;*/
+}
+
+.logo-header{
+    width: 7rem;
+    height: 5rem;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    padding: 0.3rem;
+    border: 0.1rem;
+    margin: 0.4rem;
+    left: 40%;
 }
 
 .usuario{
     width: 3rem;
     height: 3rem;
-    display: inline-block;
-    /*position: relative;*/
+    cursor: pointer;
+    display: block;
+    position: absolute;
     padding: 0.5rem;
     border: 0.1rem;
     margin: 0.4rem;
+    left: 0;
+}
+
+.menuinicial{
+    width: 3rem;
+    height: 3rem; 
+    cursor: pointer; 
+    display: block;
+    position: absolute;
+    padding: 0.5rem;
+    border: 0.1rem;
+    margin: 0.4rem;
+    left: 85.5%;  
 }
 
 .formulario{
@@ -34,37 +73,6 @@ body{
 .formulario input{
     border-radius: 59;
     
-}
-
-.menuinicial{
-    width: 3rem;
-    height: 3rem;
-    
-}
-
-
-.logo-header{
-    width: 7rem;
-    height: 5rem;
-    display: inline-block;
-    /*position: absolute; */
-    padding: 0.3rem;
-    border: 0.1rem;
-    margin: 0.4rem;
-}
-
-.container{
-    justify-content: space-between;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    /*justify-content: right;*/
-    padding: 0.5rem;
-    border: 0.1rem;
-    margin: 0.4rem;
-    border-style: solid;
-    border-width: 0.3rem;
-    border-color: #4cfbb4;
 }
 
 /*.menu-hamburguer{
@@ -106,8 +114,8 @@ body{
     border-color: #642c93;
     border-radius: 3rem;
     background-color: #2589BD;
-    top: 0;
-    left: 96.5%;
+    top: 3.5rem;
+    left: 86.5%;
 }
 
 .maiuscula{
@@ -124,8 +132,8 @@ body{
     border-color: #642c93;
     border-radius: 1rem;
     background-color: #2589BD;
-    top: 3.5rem;
-    left: 96.5%;
+    top: 7rem;
+    left: 86.5%;
 }
 
 .minuscula{
@@ -142,12 +150,12 @@ body{
     border-color: #642c93;
     border-radius: 1rem;
     background-color: #2589BD;
-    top: 7rem;
-    left: 96.5%;
+    top: 10.5rem;
+    left: 86.5%;
 }
 
 footer{
-    background: linear-gradient(#f4f7fb, #2589BD);
+    background: #2589BD;
 }
 
 socialmedia{
