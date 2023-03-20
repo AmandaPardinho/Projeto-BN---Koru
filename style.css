@@ -118,8 +118,7 @@ body{
     border: 0.1rem;
     margin: 0.4rem;
     border-style: none;
-    border-width: 0.3rem;
-    /*border-color: #4cfbb4;*/
+    /*border-width: 0.3rem;*/
 }
 
 .leitor{
@@ -174,6 +173,18 @@ body{
     background-color: #2589BD;
     top: 10.5rem;
     left: 82.5%;
+}
+
+.container-celular{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0.5rem;
+    border: 0.1rem;
+    margin: 0.4rem;
+    border-style: solid;
+    border-color: #4cfbb4;
+    border-width: 0.3rem;
 }
 
 footer{
