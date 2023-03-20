@@ -30,10 +30,11 @@ body{
 }
 
 .formulario{
-    background-color: green;
+    background-color: #187795;
     margin: 2rem;
     padding: 1rem;
     width: 75%;
+    border-radius: 22px;
 }
 
 .formulario input{
@@ -51,11 +52,61 @@ body{
 
 .formulario button{
     position: relative;
-    left: 40%;
+    left: 34%;
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 22px;
+    width: 86px;
+}
+
+.emailcontato{
+    text-align: center;
+    padding-left: 19%;
+    padding-bottom: 6%;
+}
+
+.anuncios{
+    text-align: center;
+    
+}
+
+.frase1{
+    text-transform: uppercase;
+    text-align: center;
+    margin: revert;
+    color: #642C93;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.frase2{
+    text-align: center;
+    margin: revert;
 }
 
 .textfield{
     width: 94%;
+}
+
+.checkboxemail{
+    display: flex;
+    align-items: center;
+}
+
+.checkboxwhatsapp{
+    display: flex;
+    align-items: center;
+}
+
+.termos{
+    display: flex;
+    align-items: center;
+}
+
+.botaoenviar{
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 22px;
 }
 
 .menuinicial{
@@ -169,7 +220,7 @@ body{
 }
 
 footer{
-    background: linear-gradient(#f4f7fb, #2589BD);
+    background:#2589BD;
 }
 
 socialmedia{
