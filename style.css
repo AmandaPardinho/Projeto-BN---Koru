@@ -66,8 +66,8 @@ body{
 
 
 .logo-header{
-    width: 7.5rem;
-    height: 7.5rem;
+    width: 7rem;
+    height: 5rem;
     display: inline-block;
     /*position: absolute; */
     padding: 0.3rem;
@@ -76,7 +76,6 @@ body{
 }
 
 .container{
-    
     justify-content: space-between;
     height: 100%;
     display: flex;
@@ -90,18 +89,83 @@ body{
     border-color: #4cfbb4;
 }
 
-.menu-hamburguer{
+/*.menu-hamburguer{
     position: absolute;
     opacity: 0;
 }
 
 .checkbox-menu{
-    
     cursor: pointer;
     position: relative;
     display: block;
     height: 3rem;
     width: 3rem;
+}*/
+
+.acessibilidade{
+    display: flex;
+    flex-direction: column;
+    position: relative;    
+    padding: 0.5rem;
+    border: 0.1rem;
+    margin: 0.4rem;
+    border-style: none;
+    border-width: 0.3rem;
+    /*border-color: #4cfbb4;*/
+}
+
+.leitor{
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    width: 3rem;
+    height: 3rem;
+    font-size: 0.4rem;
+    font-weight: bolder;
+    color: #4cfbb4;
+    text-align: center;
+    border: solid;
+    border-color: #642c93;
+    border-radius: 3rem;
+    background-color: #2589BD;
+    top: 0;
+    left: 96.5%;
+}
+
+.maiuscula{
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #4cfbb4;
+    text-align: center;
+    border: solid;
+    border-color: #642c93;
+    border-radius: 1rem;
+    background-color: #2589BD;
+    top: 3.5rem;
+    left: 96.5%;
+}
+
+.minuscula{
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #4cfbb4;
+    text-align: center;
+    border: solid;
+    border-color: #642c93;
+    border-radius: 1rem;
+    background-color: #2589BD;
+    top: 7rem;
+    left: 96.5%;
 }
 
 footer{
