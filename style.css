@@ -1,3 +1,5 @@
+@media screen and (max-width: 480px) {
+
 body{
     background: linear-gradient(#f4f7fb, #2589BD);
     color: #f4f7fb;
@@ -29,11 +31,31 @@ body{
 
 .formulario{
     background-color: green;
+    margin: 2rem;
+    padding: 1rem;
+    width: 75%;
 }
 
 .formulario input{
     border-radius: 59;
+    margin: 0.5rem;
+    display: flex;
     
+}
+
+.formulario textarea{
+    display: flex;
+    margin: 8px;
+    width: 94%;
+}
+
+.formulario button{
+    position: relative;
+    left: 40%;
+}
+
+.textfield{
+    width: 94%;
 }
 
 .menuinicial{
@@ -116,18 +138,27 @@ socialmedia{
 }
 
 .googleplay{
-    width: 12.75rem;
-    height: 3.75rem;
+    width: 8.75rem;
+    height: 2.75rem;
 }
 
 .applestore{
-    width: 12.75rem;
-    height: 3.75rem;
+    width: 8.75rem;
+    height: 2.75rem;
 }
 
 .lojasapp{
     display: flex;
     align-items: center;
-    
+    padding: 13%;
 
+}
+
+}
+
+@media screen and (min-width: 800px) {
+
+    body{
+        background-color: yellow;
+    }
 }
