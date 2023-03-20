@@ -1,4 +1,3 @@
-
 body{
     background: linear-gradient(#FEFEFE, #642c93);
 }
@@ -29,6 +28,11 @@ body{
 
 .formulario{
     background-color: green;
+}
+
+.formulario input{
+    border-radius: 59;
+    
 }
 
 .menuinicial{
