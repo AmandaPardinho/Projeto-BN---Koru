@@ -376,7 +376,7 @@ footer{
     display: flex;
     flex-direction: column;
     position: relative;
-    height: 7rem;
+    height: 8rem;
     padding: 0.8rem;
     border: 0.3rem;
     margin: 0.5rem;
@@ -475,6 +475,20 @@ footer{
     left: 75%;
 }
 
+.botao-voltar{
+    background-color: #4cfbb4;
+    color: #642C93;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    border-radius: 1.5rem;
+    width: 17rem;
+    height: 2.5rem;
+    display: block;
+    position: absolute;
+    top: 117rem;
+    left: 7%;
+}
+
 
 .lojasapp{
     display: flex;
@@ -487,9 +501,6 @@ footer{
     width: 16px;
 }
 
-.botaovoltar:hover{
-    background-color: green;
-}
 
 }
 
