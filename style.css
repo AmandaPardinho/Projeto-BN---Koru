@@ -98,7 +98,12 @@ body{
 
 .titulo{
     color: #642C93;
-    
+    font-size: 2rem;
+}
+
+.titulo-2{
+    color: #642C93;
+    margin-top: 1rem;
 }
 
 .texto-principal{
@@ -109,6 +114,12 @@ body{
     border-width: 4px;
     /* padding-top: 0rem; */
     margin-top: 9rem;
+}
+
+.frase3{
+    color:#642C93;
+    text-align: center;
+    font-weight: bold;
 }
 
 .formulario{
@@ -320,12 +331,18 @@ body{
     left: 82.5%;
 }
 
+.frase4{
+    padding: 2rem;
+    text-align: center;
+    font-size: 22px;
+}
+
 .container-celular{
     display: flex;
     flex-direction: column;
     position: relative;
     height: 25rem;
-    top: 2.5rem;
+    top: -1.5rem;
     padding: 0.5rem;
     border: 0.1rem;
     margin: 0.4rem;
@@ -366,6 +383,7 @@ body{
 }*/
 
 footer{
+    height: 18rem;
     background-color: #32164A;
 }
 
