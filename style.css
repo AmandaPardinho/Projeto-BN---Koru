@@ -376,8 +376,8 @@ footer{
     display: flex;
     flex-direction: column;
     position: relative;
-    height: 8rem;
-    padding: 1rem;
+    height: 7rem;
+    padding: 0.8rem;
     border: 0.3rem;
     margin: 0.5rem;
 }
@@ -396,13 +396,13 @@ footer{
     padding: 0.5rem;
     border: 0.1rem;
     margin: 0.4rem;
-    left: 40%;
+    left: 30%;
 }
 
 .socialmedia{
     display: flex;
-    flex-direction: row;
-    padding: 2.5rem;
+    flex-direction: column;
+    padding: 1.5rem;
     border: 0.1rem;
     margin: 0.4rem;
     width: 1.75rem;
@@ -419,7 +419,8 @@ footer{
     margin: 0.4rem;
     width: 1.75rem;
     height: 1.75rem;
-    left: 2%;
+    top: 119.5rem;
+    left: 75%;
 }
 
 .instagram{
@@ -431,7 +432,8 @@ footer{
     margin: 0.4rem;
     width: 1.75rem;
     height: 1.75rem;
-    left: 22%;
+    top: 122.5rem;
+    left: 75%;
 }
 
 .twitter{
@@ -443,7 +445,8 @@ footer{
     margin: 0.4rem;
     width: 1.75rem;
     height: 1.75rem;
-    left: 42%;
+    top: 125.5rem;
+    left: 75%;
 }
 
 .linkedin{
@@ -455,7 +458,8 @@ footer{
     margin: 0.4rem;
     width: 1.75rem;
     height: 1.75rem;
-    left: 62%;
+    top: 128.5rem;
+    left: 75%;
 }
 
 .email{
@@ -467,7 +471,8 @@ footer{
     margin: 0.4rem;
     width: 1.75rem;
     height: 1.75rem;
-    left: 82%;
+    top: 131.5rem;
+    left: 75%;
 }
 
 
