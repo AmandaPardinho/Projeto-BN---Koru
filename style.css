@@ -489,6 +489,11 @@ footer{
     left: 7%;
 }
 
+.botao-voltar:hover{
+    background-color: #642C93;
+    color: #4cfbb4;
+}
+
 
 .lojasapp{
     display: flex;
