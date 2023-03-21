@@ -96,7 +96,7 @@ body{
 }
 
 .nav-button{
-    /*all: unset;*/
+    all: unset;
     cursor: pointer;
     /*outline: revert;*/
     border: 2px;
@@ -215,7 +215,7 @@ body{
 
 .mailto{
     color: #4cfbb4;
-    padding-left: 31px;
+    padding-left: 13%;
 }
 
 .botaoenviar:hover{
