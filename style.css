@@ -96,8 +96,6 @@ body{
     height: 115px;
 }
 
-
-
 .emailcontato{
     text-align: center;
     margin: 13%;
@@ -117,7 +115,7 @@ body{
     text-transform: uppercase;
     text-align: center;
     margin: revert;
-    color: #642C93;
+    color: #4cfbb4;
     font-weight: bold;
     font-size: 23px;
 }
@@ -174,37 +172,6 @@ body{
 .botaoenviar:hover{
     background-color: #642C93;
     color:#4cfbb4 ;
-}
-
-.menuinicial{
-    width: 3rem;
-    height: 3rem;
-    
-}
-
-
-.logo-header{
-    width: 7rem;
-    height: 5rem;
-    display: inline-block;
-    /*position: absolute; */
-    padding: 0.3rem;
-    border: 0.1rem;
-    margin: 0.4rem;
-}
-
-.container{
-    justify-content: space-between;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    /*justify-content: right;*/
-    padding: 0.5rem;
-    border: 0.1rem;
-    margin: 0.4rem;
-    border-style: solid;
-    border-width: 0.3rem;
-    border-color: #4cfbb4;
 }
 
 /*.menu-hamburguer{
@@ -298,15 +265,16 @@ body{
 }
 
 footer{
-    background:#2589BD;
-}
-
-.menu{
-
+    background:linear-gradient(rgb(1,144,191), #2589BD);;
 }
 
 socialmedia{
     display: flex;
+}
+
+.mailto{
+    color: #4cfbb4;
+    padding-left: 31px;
 }
 
 .facebook{
