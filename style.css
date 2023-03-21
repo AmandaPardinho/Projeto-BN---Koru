@@ -7,16 +7,18 @@ body{
 
 .logo-bn-grande{
     margin: 0rem;
+    width: 4rem;
+    height: 3rem;
     border-style: solid;
-    border-color: red;
-    border-width: 2px;
-    margin-top: -2rem;
+    /*border-color: red;*/
+    /*border-width: 2px;*/
+    margin-top: -3.3rem;
 }
 
 .container{
     border-color: red;
     border-style: solid;
-    border-width: 3px;
+    /*border-width: 3px;*/
     margin: 0rem;
     padding: 1rem;
     margin-top: 0.5rem;
@@ -39,16 +41,16 @@ body{
 */
 
 .logo-header{
-    width: 7rem;
-    height: 5rem;
+    width: 4rem;
+    height: 3rem;
     /* cursor: pointer; */
     display: block;
     position: relative;
     /* padding: 0.3rem; */
     /* border: 0.1rem; */
     /* margin: 0.4rem; */
-    left: 34%;
-    margin-top: 0rem;
+    left: 3%;
+    margin-top: 4%;
 }
 
 
@@ -65,21 +67,6 @@ body{
     left: 27.5%;
 }
 */
-
-
-
-.usuario{
-    width: 3rem;
-    height: 3rem;
-    cursor: pointer;
-    display: block;
-    position: absolute;
-    /*padding: 0.5rem;
-    border: 0.1rem;
-    margin: 0.4rem;*/
-    left: 2%;
-    margin-top: -1rem;
-}
 
 .menuinicial{
     width: 3rem;
@@ -100,6 +87,18 @@ body{
     cursor: pointer;
     /*outline: revert;*/
     border: 2px;
+}
+
+.caixa-titulo{
+    text-align: center;
+    margin-top: 2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.titulo{
+    color: #642C93;
+    
 }
 
 .texto-principal{
