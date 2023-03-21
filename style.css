@@ -474,6 +474,13 @@ footer{
     left: 75%;
 }
 
+.botao-footer{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 115rem;
+}
+
 .botao-voltar{
     background-color: #4cfbb4;
     color: #642C93;
@@ -492,6 +499,8 @@ footer{
     background-color: #642C93;
     color: #4cfbb4;
 }
+
+
 
 
 .lojasapp{
