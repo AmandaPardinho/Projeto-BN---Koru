@@ -169,6 +169,11 @@ body{
     background-color: #4cfbb4;
 }
 
+.mailto{
+    color: #4cfbb4;
+    padding-left: 31px;
+}
+
 .botaoenviar:hover{
     background-color: #642C93;
     color:#4cfbb4 ;
@@ -194,8 +199,6 @@ body{
     padding: 0.5rem;
     border: 0.1rem;
     margin: 0.4rem;
-    border-style: none;
-    /*border-width: 0.3rem;*/
 }
 
 .leitor{
@@ -276,6 +279,8 @@ body{
 }
 
 .googleplay{
+    width: 8.75rem;
+    height: 2.75rem;
     display: block;
     position: absolute;
     top: 7rem;
@@ -283,59 +288,122 @@ body{
 }
 
 .applestore{
+    width: 8.75rem;
+    height: 2.75rem;
     display: block;
     position: absolute;
     top: 12.5rem;
     left: 55%;
 }
 
-footer{
+/*footer{
     background:linear-gradient(rgb(0,144,191), #2589BD);
+}*/
+
+footer{
+    background-color: #000;
 }
 
-socialmedia{
-    display: flex;
-}
-
-.mailto{
+.menu-footer{
     color: #4cfbb4;
-    padding-left: 31px;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 8rem;
+    padding: 1rem;
+    border: 0.3rem;
+    margin: 0.5rem;
+}
+
+.lista-um-footer{
+    display: block;
+    position: absolute;
+    padding: 0.5rem;
+    border: 0.1rem;
+    margin: 0.4rem;
+}
+
+.lista-dois-footer{
+    display: block;
+    position: absolute;
+    padding: 0.5rem;
+    border: 0.1rem;
+    margin: 0.4rem;
+    left: 40%;
+}
+
+.socialmedia{
+    display: flex;
+    flex-direction: row;
+    padding: 2.5rem;
+    border: 0.1rem;
+    margin: 0.4rem;
+    width: 1.75rem;
+    height: 1.75rem;
+
 }
 
 .facebook{
-    width: 1.25rem;
-    height: 1.25rem;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    padding: 0.5rem;
+    border: 0.1rem;
+    margin: 0.4rem;
+    width: 1.75rem;
+    height: 1.75rem;
+    left: 2%;
 }
 
 .instagram{
-    width: 1.25rem;
-    height: 1.25rem;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    padding: 0.5rem;
+    border: 0.1rem;
+    margin: 0.4rem;
+    width: 1.75rem;
+    height: 1.75rem;
+    left: 22%;
 }
 
 .twitter{
-    width: 1.25rem;
-    height: 1.25rem;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    padding: 0.5rem;
+    border: 0.1rem;
+    margin: 0.4rem;
+    width: 1.75rem;
+    height: 1.75rem;
+    left: 42%;
 }
 
 .linkedin{
-    width: 1.25rem;
-    height: 1.25rem;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    padding: 0.5rem;
+    border: 0.1rem;
+    margin: 0.4rem;
+    width: 1.75rem;
+    height: 1.75rem;
+    left: 62%;
 }
 
 .email{
-    width: 1.25rem;
-    height: 1.25rem;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    padding: 0.5rem;
+    border: 0.1rem;
+    margin: 0.4rem;
+    width: 1.75rem;
+    height: 1.75rem;
+    left: 82%;
 }
 
-.googleplay{
-    width: 8.75rem;
-    height: 2.75rem;
-}
-
-.applestore{
-    width: 8.75rem;
-    height: 2.75rem;
-}
 
 .lojasapp{
     display: flex;
