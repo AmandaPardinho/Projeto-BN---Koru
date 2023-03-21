@@ -5,20 +5,24 @@ body{
     color: #f4f7fb;
 }
 
-/*.bannerB{
-    color: #642c93;
-    font-size: 3rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+.logo-bn-grande{
+    margin: 0rem;
+    border-style: solid;
+    border-color: red;
+    border-width: 2px;
+    margin-top: -2rem;
 }
 
-.bannerN{
-    color: #4cfbb4;
-    font-size: 3rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}*/
+.container{
+    border-color: red;
+    border-style: solid;
+    border-width: 3px;
+    margin: 0rem;
+    padding: 1rem;
+    margin-top: 0.5rem;
+}
 
+/*
 .container{
     height: 100%;
     display: flex;
@@ -27,11 +31,28 @@ body{
     padding: 0.5rem;
     border: 0.1rem;
     margin: 0.4rem;
-    /*border-style: solid;
+    border-style: solid;
     border-width: 0.3rem;
-    border-color: #4cfbb4;*/
+    border-color: #4cfbb4;
 }
 
+*/
+
+.logo-header{
+    width: 7rem;
+    height: 5rem;
+    /* cursor: pointer; */
+    display: block;
+    position: relative;
+    /* padding: 0.3rem; */
+    /* border: 0.1rem; */
+    /* margin: 0.4rem; */
+    left: 34%;
+    margin-top: 0rem;
+}
+
+
+/*
 .logo-header{
     width: 7rem;
     height: 5rem;
@@ -43,6 +64,9 @@ body{
     margin: 0.4rem;
     left: 27.5%;
 }
+*/
+
+
 
 .usuario{
     width: 3rem;
@@ -54,6 +78,7 @@ body{
     border: 0.1rem;
     margin: 0.4rem;*/
     left: 2%;
+    margin-top: -1rem;
 }
 
 .menuinicial{
@@ -64,8 +89,27 @@ body{
     position: absolute;
     /*padding: 0.5rem;
     border: 0.1rem;
-    margin: 0.4rem;*/
-    left: 82.5%;  
+    margin: 0.4rem;
+    left: 82.5%; */
+    right: 2%;
+    margin-top: -1.8rem;
+}
+
+.nav-button{
+    /*all: unset;*/
+    cursor: pointer;
+    /*outline: revert;*/
+    border: 2px;
+}
+
+.texto-principal{
+    margin: 2rem;
+    padding: 2rem;
+    border-color: blue;
+    border-style: solid;
+    border-width: 4px;
+    /* padding-top: 0rem; */
+    margin-top: 9rem;
 }
 
 .formulario{
@@ -192,7 +236,7 @@ body{
     width: 3rem;
 }*/
 
-.acessibilidade{
+.overlay-content{
     display: flex;
     flex-direction: column;
     position: relative;    
@@ -200,6 +244,28 @@ body{
     border: 0.1rem;
     margin: 0.4rem;
 }
+
+.overlay{
+    width: 0;
+    height: 100%;
+    /*background-color: rgb(0,0,0);*/
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 9;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+    transition: all 0.5s;
+}
+
+.overlay .closebtn{
+    position: absolute;
+    top: 25px;
+    left: 45px;
+    font-size: 60px;
+}
+
+
 
 .leitor{
     display: block;
