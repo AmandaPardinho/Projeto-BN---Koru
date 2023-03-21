@@ -41,7 +41,7 @@ body{
     padding: 0.3rem;
     border: 0.1rem;
     margin: 0.4rem;
-    left: 32.5%;
+    left: 27.5%;
 }
 
 .usuario{
@@ -176,37 +176,6 @@ body{
     color:#4cfbb4 ;
 }
 
-.menuinicial{
-    width: 3rem;
-    height: 3rem;
-    
-}
-
-
-.logo-header{
-    width: 7rem;
-    height: 5rem;
-    display: inline-block;
-    /*position: absolute; */
-    padding: 0.3rem;
-    border: 0.1rem;
-    margin: 0.4rem;
-}
-
-.container{
-    justify-content: space-between;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    /*justify-content: right;*/
-    padding: 0.5rem;
-    border: 0.1rem;
-    margin: 0.4rem;
-    border-style: solid;
-    border-width: 0.3rem;
-    border-color: #4cfbb4;
-}
-
 /*.menu-hamburguer{
     position: absolute;
     opacity: 0;
@@ -289,16 +258,41 @@ body{
     display: flex;
     flex-direction: column;
     position: relative;
+    height: 25rem;
+    top: 2.5rem;
     padding: 0.5rem;
     border: 0.1rem;
     margin: 0.4rem;
-    border-style: solid;
+    /*border-style: solid;
     border-color: #4cfbb4;
-    border-width: 0.3rem;
+    border-width: 0.3rem;*/ 
+}
+
+.celular{
+    width: 10rem;
+    height: 20rem;
+    display: block;
+    position: absolute;
+    top: 1rem;
+    left: 2%;
+}
+
+.googleplay{
+    display: block;
+    position: absolute;
+    top: 12rem;
+    left: 55%;
+}
+
+.applestore{
+    display: block;
+    position: absolute;
+    top: 16.5rem;
+    left: 55%;
 }
 
 footer{
-    background:#2589BD;
+    background:#187795;
 }
 
 .menu{
