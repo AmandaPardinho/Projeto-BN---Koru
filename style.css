@@ -278,19 +278,19 @@ body{
 .googleplay{
     display: block;
     position: absolute;
-    top: 12rem;
+    top: 7rem;
     left: 55%;
 }
 
 .applestore{
     display: block;
     position: absolute;
-    top: 16.5rem;
+    top: 12.5rem;
     left: 55%;
 }
 
 footer{
-    background:linear-gradient(rgb(1,144,191), #187795);;
+    background:linear-gradient(rgb(0,144,191), #2589BD);
 }
 
 socialmedia{
