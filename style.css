@@ -72,36 +72,40 @@ body{
     background-color: #187795;
     margin: 2rem;
     padding: 1rem;
-    width: 75%;
+    width: 73%;
     border-radius: 22px;
+    border-style: solid;
+    border-color: #642C93;
+    border-width: 4px;
+    box-shadow: -7px 1px 32px 1px #642C93;
 }
 
 .formulario input{
     border-radius: 59;
     margin: 0.5rem;
     display: flex;
-    
+}
+
+.formulario label{
+    padding-left: 9px;
 }
 
 .formulario textarea{
     display: flex;
     margin: 8px;
-    width: 94%;
+    height: 115px;
 }
 
-.formulario button{
-    position: relative;
-    left: 34%;
-    padding: 8px;
-    margin-top: 20px;
-    border-radius: 22px;
-    width: 86px;
-}
+
 
 .emailcontato{
     text-align: center;
-    padding-left: 19%;
-    padding-bottom: 6%;
+    margin: 13%;
+    
+}
+
+.caixaemail{
+    padding: 3%;
 }
 
 .anuncios{
@@ -124,7 +128,19 @@ body{
 }
 
 .textfield{
-    width: 94%;
+    width: 83%;
+    height: 2.25rem;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #642C93;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.textfield:focus{
+    box-shadow: none;
+    outline: 0;
 }
 
 .checkboxemail{
@@ -143,9 +159,21 @@ body{
 }
 
 .botaoenviar{
+    position: relative;
+    left: 34%;
     padding: 8px;
     margin-top: 20px;
     border-radius: 22px;
+    border-color: #642C93;
+    border-style: solid;
+    border-width: 2px;
+    width: 86px;
+    background-color: #4cfbb4;
+}
+
+.botaoenviar:hover{
+    background-color: #642C93;
+    color:#4cfbb4 ;
 }
 
 .menuinicial{
@@ -273,6 +301,10 @@ footer{
     background:#2589BD;
 }
 
+.menu{
+
+}
+
 socialmedia{
     display: flex;
 }
@@ -319,6 +351,14 @@ socialmedia{
 
 }
 
+.logobn{
+    width: 16px;
+}
+
+.botaovoltar:hover{
+    background-color: green;
+}
+
 }
 
 @media screen and (min-width: 800px) {
@@ -326,4 +366,10 @@ socialmedia{
     body{
         background-color: yellow;
     }
+
+    .botaovoltar:hover{
+    background-color: green;
+}
+
+
 }
