@@ -96,8 +96,6 @@ body{
     height: 115px;
 }
 
-
-
 .emailcontato{
     text-align: center;
     margin: 13%;
@@ -117,7 +115,7 @@ body{
     text-transform: uppercase;
     text-align: center;
     margin: revert;
-    color: #642C93;
+    color: #4cfbb4;
     font-weight: bold;
     font-size: 23px;
 }
@@ -292,15 +290,16 @@ body{
 }
 
 footer{
-    background:#187795;
-}
-
-.menu{
-
+    background:linear-gradient(rgb(1,144,191), #187795);;
 }
 
 socialmedia{
     display: flex;
+}
+
+.mailto{
+    color: #4cfbb4;
+    padding-left: 31px;
 }
 
 .facebook{
