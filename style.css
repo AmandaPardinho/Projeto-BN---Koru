@@ -359,11 +359,21 @@ footer{
     display: block;
     position: absolute;
     left: 12%;
+    border-width: 2px;
+    border-color: #642C93;
+    border-style: solid;
+    text-decoration: none;
+    text-align: center;
 }
 
 .botao-voltar:hover{
     background-color: #642C93;
     color: #4cfbb4;
+    border-color: #4cfbb4;
+}
+
+.botao-footer a{
+    
 }
 
 .menu-footer{
