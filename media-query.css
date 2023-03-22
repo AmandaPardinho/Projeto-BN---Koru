@@ -9,12 +9,25 @@ body{
 }
 
 
+.logobn {
+    margin-left: 97%; 
+}
 
+.botao-voltar {
+    left: 31%;
+}
 
+.lista-dois-footer {
+      left: 53%;
+}
 
+.botaoenviar {
+    left: 42%;
+}
 
-
-
+.mailto {
+    padding-left: 30%;
+}
 
 
 } 
