@@ -26,18 +26,31 @@ body{
 
 .overlay .closebtn{
     position: absolute;
-    top: 25px;
-    left: 45px;
+    top: 1rem;
+    left: 2rem;
     font-size: 60px;
+    color: white;
+    text-decoration: none;
 }
 
 .overlay-content{
     display: flex;
     flex-direction: column;
     position: relative;    
-    padding: 0.5rem;
+    /* padding: 0.5rem; */
     border: 0.1rem;
-    margin: 0.4rem;
+    /* margin: 0.4rem; */
+    text-align: center;
+    width: 100%;
+    margin-top: 10rem;
+}
+
+.overlay a{
+    padding: 8px;
+    text-decoration: none;
+    color: #4cfbb4;
+    font-size: 34px;
+    transition: 0.3s;
 }
 
 .leitor{

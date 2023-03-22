@@ -8,6 +8,8 @@ function closeNav(){
     document.getElementById("myNav").style.width = '0%';
 }
 
+var botaoVoltar = document.getElementsByClassName();
+
 /*
 var abrirMenu = document.querySelector("#nav-button");
 abrirMenu.onclick = openNav;
