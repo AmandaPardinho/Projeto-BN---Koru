@@ -337,7 +337,7 @@ body{
 }
 
 footer{
-    height: 19rem;
+    height: 18rem;
     background-color: #32164A;
 }
 
@@ -372,9 +372,9 @@ footer{
     border-color: #4cfbb4;
 }
 
-.botao-footer a{
+/* .botao-footer a{
     
-}
+} */
 
 .menu-footer{
     color: #4cfbb4;
@@ -403,7 +403,7 @@ footer{
     padding: 0.5rem;
     border: 0.1rem;
     margin: 0.4rem;
-    left: 35%;
+    left: 36%;
 }
 
 .socialmedia{
@@ -415,7 +415,7 @@ footer{
     width: 1.75rem;
     height: 11.75rem;
     margin-top: 1rem;
-    left: 83%;
+    left: 86%;
 }
 
 
@@ -502,6 +502,9 @@ footer{
 
 .logobn{
     width: 16px;
+    margin-left: 95%;
+    margin-top: -2px;
+    position: absolute;
 }
 
 }
