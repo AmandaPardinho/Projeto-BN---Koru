@@ -14,18 +14,18 @@
     <header>
         <div class="container">      
             <div id="myNav" class="overlay">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="javascript:void(0)" class="closebtn" id="fechar-menu">&times;</a>
                 <div class="overlay-content">
                     <button type="button" name="leitor" class="leitor">Leitor automático</button>
                     <button type="button" name="aumenta-letra" class="maiuscula">A+</button>
                     <button type="button" name="diminui-letra" class="minuscula">a-</button>
 
-                    <a href="#forms" onclick="closeNav()">Formulário</a>
-                    <a href="#redes-sociais" onclick="closeNav()">Redes Sociais</a>
-                    <a href="#conheca-app" onclick="closeNav()">Baixar APP</a>
+                    <a href="#forms-1" id="forms">Formulário</a>
+                    <a href="#redes-sociais" id="social-media">Redes Sociais</a>
+                    <a href="#conheca-app" id="baixar-app">Baixar APP</a>
                 </div>
             </div>
-            <button type="button" class="nav-button" onclick="openNav()">
+            <button id="button-menu" type="button" class="nav-button">
                 <img src="./assets/menuicon.png" alt="icone de menu com três riscos" class="menuinicial">
             </button>
         </div>
@@ -75,7 +75,7 @@
         <div class="frase3">
             <h3>Ao responder o formulário ganhe 7 dias de TESTE!</h3>
         </div>
-        <div id="forms" class="formulario">
+        <div id="forms-1" class="formulario">
             <form method="post">
                 <fieldset>
                     <p class="frase1"><b>Quer ter o <strong>BN</strong> na sua empresa?</b></p>
