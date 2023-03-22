@@ -1,6 +1,6 @@
   
 body{
-    background: linear-gradient(#f4f7fb, #2589BD);
+    background: linear-gradient(#fff, #455ba8);
     color: #f4f7fb;
 }
 
@@ -426,8 +426,6 @@ footer{
     margin-top: 1rem;
     left: 86%;
 }
-
-
 
 .facebook{
     width: 1.75rem;
