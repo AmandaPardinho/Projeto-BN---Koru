@@ -324,7 +324,7 @@ body{
 }
 
 footer{
-    height: 18rem;
+    height: 19rem;
     background-color: #32164A;
 }
 
@@ -345,7 +345,7 @@ footer{
     height: 2.5rem;
     display: block;
     position: absolute;
-    left: 11%;
+    left: 12%;
 }
 
 .botao-voltar:hover{
@@ -359,10 +359,11 @@ footer{
     display: flex;
     flex-direction: column;
     position: relative;
-    height: 8rem;
+    height: 14rem;
     padding: 0.8rem;
     border: 0.3rem;
     margin: 0.5rem;
+    margin-top: 1rem;
 }
 
 .lista-um-footer{
@@ -379,83 +380,103 @@ footer{
     padding: 0.5rem;
     border: 0.1rem;
     margin: 0.4rem;
-    left: 30%;
+    left: 35%;
 }
 
 .socialmedia{
+    position: relative;
     display: flex;
     flex-direction: column;
-    padding: 1.5rem;
+    padding: 0.5rem;
     border: 0.1rem;
-    margin: 0.4rem;
     width: 1.75rem;
-    height: 1.75rem;
+    height: 11.75rem;
+    margin-top: 1rem;
+    left: 83%;
 }
 
+
+
 .facebook{
-    cursor: pointer;
+    width: 1.75rem;
+    height: 1.75rem;
+    margin-bottom: 0.4rem;
+    /* cursor: pointer;
     display: block;
     position: absolute;
     padding: 0.5rem;
     border: 0.1rem;
     margin: 0.4rem;
-    width: 1.75rem;
-    height: 1.75rem;
     top: 116.5rem;
-    left: 78%;
+    left: 78%; */
 }
 
 .instagram{
-    cursor: pointer;
+    width: 1.75rem;
+    height: 1.75rem;
+    margin-bottom: 0.4rem;
+    /* cursor: pointer;
     display: block;
     position: absolute;
     padding: 0.5rem;
     border: 0.1rem;
     margin: 0.4rem;
-    width: 1.75rem;
-    height: 1.75rem;
     top: 119.5rem;
-    left: 78%;
+    left: 78%; */
 }
 
 .twitter{
-    cursor: pointer;
+    width: 1.75rem;
+    height: 1.75rem;
+    margin-bottom: 0.4rem;
+    /* cursor: pointer;
     display: block;
     position: absolute;
     padding: 0.5rem;
     border: 0.1rem;
     margin: 0.4rem;
-    width: 1.75rem;
-    height: 1.75rem;
     top: 122.5rem;
-    left: 78%;
+    left: 78%; */
 }
 
 .linkedin{
-    cursor: pointer;
+    width: 1.75rem;
+    height: 1.75rem;
+    margin-bottom: 0.4rem;
+    /* cursor: pointer;
     display: block;
     position: absolute;
     padding: 0.5rem;
     border: 0.1rem;
     margin: 0.4rem;
-    width: 1.75rem;
-    height: 1.75rem;
     top: 125.5rem;
-    left: 78%;
+    left: 78%; */
 }
 
 .email{
-    cursor: pointer;
+    width: 1.75rem;
+    height: 1.75rem;
+    /* cursor: pointer;
     display: block;
     position: absolute;
     padding: 0.5rem;
     border: 0.1rem;
     margin: 0.4rem;
-    width: 1.75rem;
-    height: 1.75rem;
     top: 128.5rem;
-    left: 78%;
+    left: 78%; */
+} 
+
+.logo-grande{
+    width: 11rem;
+    margin-top: -8rem;
+    margin-left: 3rem;
 }
+
+.logo-grande-footer{
+    width: 11rem;
+    height: 7rem;
+}
+
 .logobn{
     width: 16px;
 }
