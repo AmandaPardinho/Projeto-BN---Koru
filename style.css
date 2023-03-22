@@ -1,72 +1,105 @@
 @media screen and (max-width: 480px) {
-
+    
 body{
     background: linear-gradient(#f4f7fb, #2589BD);
     color: #f4f7fb;
 }
 
-.logo-bn-grande{
-    margin: 0rem;
-    width: 4rem;
-    height: 3rem;
-    border-style: solid;
-    /*border-color: red;*/
-    /*border-width: 2px;*/
-    margin-top: -3.3rem;
-}
-
 .container{
-    border-color: red;
     border-style: solid;
-    /*border-width: 3px;*/
     margin: 0rem;
     padding: 1rem;
     margin-top: 0.5rem;
 }
 
-/*
-.container{
+.overlay{
+    width: 0;
     height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 9;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+    transition: all 0.5s;
+}
+
+.overlay .closebtn{
+    position: absolute;
+    top: 25px;
+    left: 45px;
+    font-size: 60px;
+}
+
+.overlay-content{
     display: flex;
     flex-direction: column;
-    position: relative;
+    position: relative;    
     padding: 0.5rem;
     border: 0.1rem;
     margin: 0.4rem;
-    border-style: solid;
-    border-width: 0.3rem;
-    border-color: #4cfbb4;
 }
 
-*/
-
-.logo-header{
-    width: 5rem;
-    height: 3rem;
-    /* cursor: pointer; */
-    display: block;
-    position: relative;
-    /* padding: 0.3rem; */
-    /* border: 0.1rem; */
-    /* margin: 0.4rem; */
-    left: 3%;
-    margin-top: 4%;
-}
-
-
-/*
-.logo-header{
-    width: 7rem;
-    height: 5rem;
-    cursor: pointer;
+.leitor{
     display: block;
     position: absolute;
-    padding: 0.3rem;
-    border: 0.1rem;
-    margin: 0.4rem;
-    left: 27.5%;
+    cursor: pointer;
+    width: 3rem;
+    height: 3rem;
+    font-size: 0.4rem;
+    font-weight: bolder;
+    color: #4cfbb4;
+    text-align: center;
+    border: solid;
+    border-color: #642c93;
+    border-radius: 3rem;
+    background-color: #2589BD;
+    top: 3.5rem;
+    left: 82.5%;
 }
-*/
+
+.maiuscula{
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #4cfbb4;
+    text-align: center;
+    border: solid;
+    border-color: #642c93;
+    border-radius: 1rem;
+    background-color: #2589BD;
+    top: 7rem;
+    left: 82.5%;
+}
+
+.minuscula{
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #4cfbb4;
+    text-align: center;
+    border: solid;
+    border-color: #642c93;
+    border-radius: 1rem;
+    background-color: #2589BD;
+    top: 10.5rem;
+    left: 82.5%;
+}
+
+.nav-button{
+    all: unset;
+    cursor: pointer;
+    /*outline: revert;*/
+    border: 2px;
+}
 
 .menuinicial{
     width: 3rem;
@@ -82,11 +115,25 @@ body{
     margin-top: -1.8rem;
 }
 
-.nav-button{
-    all: unset;
-    cursor: pointer;
-    /*outline: revert;*/
-    border: 2px;
+.logo-bn-grande{
+    margin: 0rem;
+    width: 4rem;
+    height: 3rem;
+    border-style: solid;
+    margin-top: -3.3rem;
+}
+
+.logo-header{
+    width: 5rem;
+    height: 3rem;
+    /* cursor: pointer; */
+    display: block;
+    position: relative;
+    /* padding: 0.3rem; */
+    /* border: 0.1rem; */
+    /* margin: 0.4rem; */
+    left: 3%;
+    margin-top: 4%;
 }
 
 .caixa-titulo{
@@ -144,27 +191,6 @@ body{
     padding-left: 9px;
 }
 
-.formulario textarea{
-    display: flex;
-    margin: 8px;
-    height: 115px;
-}
-
-.emailcontato{
-    text-align: center;
-    margin: 13%;
-    
-}
-
-.caixaemail{
-    padding: 3%;
-}
-
-.anuncios{
-    text-align: center;
-    
-}
-
 .frase1{
     text-transform: uppercase;
     text-align: center;
@@ -177,6 +203,12 @@ body{
 .frase2{
     text-align: center;
     margin: revert;
+}
+
+.formulario textarea{
+    display: flex;
+    margin: 8px;
+    height: 115px;
 }
 
 .textfield{
@@ -193,6 +225,19 @@ body{
 .textfield:focus{
     box-shadow: none;
     outline: 0;
+}
+
+.caixaemail{
+    padding: 3%;
+}
+
+.mailto{
+    color: #4cfbb4;
+    padding-left: 13%;
+}
+
+.anuncios{
+    text-align: center;    
 }
 
 .checkboxemail{
@@ -223,112 +268,9 @@ body{
     background-color: #4cfbb4;
 }
 
-.mailto{
-    color: #4cfbb4;
-    padding-left: 13%;
-}
-
 .botaoenviar:hover{
     background-color: #642C93;
     color:#4cfbb4 ;
-}
-
-/*.menu-hamburguer{
-    position: absolute;
-    opacity: 0;
-}
-
-.checkbox-menu{
-    cursor: pointer;
-    position: relative;
-    display: block;
-    height: 3rem;
-    width: 3rem;
-}*/
-
-.overlay-content{
-    display: flex;
-    flex-direction: column;
-    position: relative;    
-    padding: 0.5rem;
-    border: 0.1rem;
-    margin: 0.4rem;
-}
-
-.overlay{
-    width: 0;
-    height: 100%;
-    /*background-color: rgb(0,0,0);*/
-    background-color: rgba(0, 0, 0, 0.9);
-    z-index: 9;
-    position: fixed;
-    left: 0;
-    top: 0;
-    overflow-x: hidden;
-    transition: all 0.5s;
-}
-
-.overlay .closebtn{
-    position: absolute;
-    top: 25px;
-    left: 45px;
-    font-size: 60px;
-}
-
-
-
-.leitor{
-    display: block;
-    position: absolute;
-    cursor: pointer;
-    width: 3rem;
-    height: 3rem;
-    font-size: 0.4rem;
-    font-weight: bolder;
-    color: #4cfbb4;
-    text-align: center;
-    border: solid;
-    border-color: #642c93;
-    border-radius: 3rem;
-    background-color: #2589BD;
-    top: 3.5rem;
-    left: 82.5%;
-}
-
-.maiuscula{
-    display: block;
-    position: absolute;
-    cursor: pointer;
-    width: 3rem;
-    height: 3rem;
-    font-size: 1rem;
-    font-weight: bolder;
-    color: #4cfbb4;
-    text-align: center;
-    border: solid;
-    border-color: #642c93;
-    border-radius: 1rem;
-    background-color: #2589BD;
-    top: 7rem;
-    left: 82.5%;
-}
-
-.minuscula{
-    display: block;
-    position: absolute;
-    cursor: pointer;
-    width: 3rem;
-    height: 3rem;
-    font-size: 1rem;
-    font-weight: bolder;
-    color: #4cfbb4;
-    text-align: center;
-    border: solid;
-    border-color: #642c93;
-    border-radius: 1rem;
-    background-color: #2589BD;
-    top: 10.5rem;
-    left: 82.5%;
 }
 
 .frase4{
@@ -345,10 +287,7 @@ body{
     top: -1.5rem;
     padding: 0.5rem;
     border: 0.1rem;
-    margin: 0.4rem;
-    /*border-style: solid;
-    border-color: #4cfbb4;
-    border-width: 0.3rem;*/ 
+    margin: 0.4rem; 
 }
 
 .celular{
@@ -358,6 +297,12 @@ body{
     position: absolute;
     top: 1rem;
     left: 2%;
+}
+
+.lojasapp{
+    display: flex;
+    align-items: center;
+    padding: 13%;
 }
 
 .googleplay{
@@ -378,13 +323,34 @@ body{
     left: 55%;
 }
 
-/*footer{
-    background:linear-gradient(rgb(0,144,191), #2589BD);
-}*/
-
 footer{
     height: 18rem;
     background-color: #32164A;
+}
+
+.botao-footer{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -1rem;
+}
+
+.botao-voltar{
+    background-color: #4cfbb4;
+    color: #642C93;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    border-radius: 1.5rem;
+    width: 18rem;
+    height: 2.5rem;
+    display: block;
+    position: absolute;
+    left: 11%;
+}
+
+.botao-voltar:hover{
+    background-color: #642C93;
+    color: #4cfbb4;
 }
 
 .menu-footer{
@@ -424,7 +390,6 @@ footer{
     margin: 0.4rem;
     width: 1.75rem;
     height: 1.75rem;
-
 }
 
 .facebook{
@@ -491,49 +456,13 @@ footer{
     top: 128.5rem;
     left: 78%;
 }
-
-.botao-footer{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    top: -1rem;
-}
-
-.botao-voltar{
-    background-color: #4cfbb4;
-    color: #642C93;
-    font-size: 1.1rem;
-    font-weight: bolder;
-    border-radius: 1.5rem;
-    width: 18rem;
-    height: 2.5rem;
-    display: block;
-    position: absolute;
-    /*top: 117rem;*/
-    left: 11%;
-}
-
-.botao-voltar:hover{
-    background-color: #642C93;
-    color: #4cfbb4;
-}
-
-
-
-
-.lojasapp{
-    display: flex;
-    align-items: center;
-    padding: 13%;
-
-}
-
 .logobn{
     width: 16px;
 }
 
-
 }
+
+/*INÍCIO CÓDIGO DESKTOP*/
 
 @media screen and (min-width: 800px) {
 
@@ -575,10 +504,7 @@ footer{
 
 .emailcontato{
     text-align: center;
-    margin: 13%;
-    
+    margin: 13%;   
 }
-
-
 
 }
