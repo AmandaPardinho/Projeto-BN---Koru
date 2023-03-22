@@ -278,6 +278,7 @@ body{
     border-width: 2px;
     width: 86px;
     background-color: #4cfbb4;
+    cursor: pointer;
 }
 
 .botaoenviar:hover{
@@ -352,11 +353,14 @@ footer{
     color: #642C93;
     font-size: 1.1rem;
     font-weight: bolder;
+    text-align: center;
     border-radius: 1.5rem;
     width: 18rem;
     height: 2.5rem;
-    display: block;
+    display: flex;
     position: absolute;
+    justify-content: center;
+    align-items: center;
     left: 12%;
     border-width: 2px;
     border-color: #642C93;
@@ -370,10 +374,6 @@ footer{
     color: #4cfbb4;
     border-color: #4cfbb4;
 }
-
-/* .botao-footer a{
-    
-} */
 
 .menu-footer{
     color: #4cfbb4;
@@ -391,18 +391,28 @@ footer{
 .lista-um-footer{
     display: block;
     position: absolute;
+    font-size: 1.3rem;
     padding: 0.5rem;
     border: 0.1rem;
     margin: 0.4rem;
 }
 
+.lista-um-footer li{
+    padding: 0.4rem;
+}
+
 .lista-dois-footer{
     display: block;
     position: absolute;
+    font-size: 1.3rem;
     padding: 0.5rem;
     border: 0.1rem;
     margin: 0.4rem;
-    left: 36%;
+    left: 33%;
+}
+
+.lista-dois-footer li{
+    padding: 0.4rem;
 }
 
 .socialmedia{
@@ -423,69 +433,29 @@ footer{
     width: 1.75rem;
     height: 1.75rem;
     margin-bottom: 0.4rem;
-    /* cursor: pointer;
-    display: block;
-    position: absolute;
-    padding: 0.5rem;
-    border: 0.1rem;
-    margin: 0.4rem;
-    top: 116.5rem;
-    left: 78%; */
 }
 
 .instagram{
     width: 1.75rem;
     height: 1.75rem;
     margin-bottom: 0.4rem;
-    /* cursor: pointer;
-    display: block;
-    position: absolute;
-    padding: 0.5rem;
-    border: 0.1rem;
-    margin: 0.4rem;
-    top: 119.5rem;
-    left: 78%; */
 }
 
 .twitter{
     width: 1.75rem;
     height: 1.75rem;
     margin-bottom: 0.4rem;
-    /* cursor: pointer;
-    display: block;
-    position: absolute;
-    padding: 0.5rem;
-    border: 0.1rem;
-    margin: 0.4rem;
-    top: 122.5rem;
-    left: 78%; */
 }
 
 .linkedin{
     width: 1.75rem;
     height: 1.75rem;
     margin-bottom: 0.4rem;
-    /* cursor: pointer;
-    display: block;
-    position: absolute;
-    padding: 0.5rem;
-    border: 0.1rem;
-    margin: 0.4rem;
-    top: 125.5rem;
-    left: 78%; */
 }
 
 .email{
     width: 1.75rem;
     height: 1.75rem;
-    /* cursor: pointer;
-    display: block;
-    position: absolute;
-    padding: 0.5rem;
-    border: 0.1rem;
-    margin: 0.4rem;
-    top: 128.5rem;
-    left: 78%; */
 } 
 
 .logo-grande{
@@ -500,8 +470,13 @@ footer{
 }
 
 .logobn{
-    width: 16px;
+    width: 1rem;
     margin-left: 95%;
     margin-top: -2px;
     position: absolute;
+    right: 5%;
+}
+
+.copyright{
+    margin-left: 5%; 
 }
