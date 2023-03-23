@@ -205,8 +205,6 @@ body{
     box-shadow: -7px 1px 32px 1px #642C93;
 }
 
-
-
 .formulario input{
     border-radius: 59;
     margin: 0.5rem;
@@ -329,7 +327,7 @@ body{
 .frase4{
     padding: 3rem;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
