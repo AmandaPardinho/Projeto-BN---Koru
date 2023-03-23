@@ -361,12 +361,12 @@ footer{
     position: absolute;
     justify-content: center;
     align-items: center;
-    left: 12%;
     border-width: 2px;
     border-color: #642C93;
     border-style: solid;
     text-decoration: none;
     text-align: center;
+    left: 15%;
 }
 
 .botao-voltar:hover{
@@ -395,6 +395,7 @@ footer{
     padding: 0.5rem;
     border: 0.1rem;
     margin: 0.4rem;
+    left: 25%;
 }
 
 .lista-um-footer li{
@@ -405,7 +406,7 @@ footer{
     display: block;
     position: absolute;
     font-size: 1.3rem;
-    padding: 0.5rem;
+    padding-top: 0.5rem;
     border: 0.1rem;
     margin: 0.4rem;
     left: 33%;

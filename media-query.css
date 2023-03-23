@@ -14,19 +14,80 @@ body{
 }
 
 .botao-voltar {
-    left: 31%;
+    left: 37%;
 }
 
 .lista-dois-footer {
-      left: 53%;
+      left: 75%;
 }
 
 .botaoenviar {
-    left: 42%;
+    left: 45%;
 }
 
 .mailto {
-    padding-left: 30%;
+    padding-left: 39%;
+}
+
+.lista-dois-footer {
+    margin: 0.3rem;
+
+}
+
+.lista-um-footer {
+    left: 64%;
+}
+
+.formulario {
+    margin: 2rem;
+    padding: 0rem;
+}
+
+.textfield {
+    border-width: 4px;
+}
+
+.formulario {
+    width: 70%;
+
+}
+
+.textfield {
+    width: 93%;
+}
+
+.botaoenviar {
+    border-width: 3px;
+    width: 93px;
+}
+
+.socialmedia {
+    left: 92%;
+}
+
+.celular {
+    width: 12rem;
+    height: 21rem;
+    left: 5%;
+}
+
+.frase4 {
+    font-size: 21px;
+}
+
+.googleplay {
+    width: 9.75rem;
+    height: 2.75rem;
+
+}
+
+.applestore {
+    width: 9.75rem;
+    height: 2.75rem;
+}
+
+
+
 }
 
 
@@ -37,21 +98,3 @@ body{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-} 
