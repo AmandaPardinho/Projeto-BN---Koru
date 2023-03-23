@@ -28,7 +28,7 @@ body{
     top: 1rem;
     left: 2rem;
     font-size: 60px;
-    color: white;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -173,6 +173,8 @@ body{
     border-width: 4px;
     /* padding-top: 0rem; */
     margin-top: 9rem;
+    font-weight: bold;
+    color: #642C93;
 }
 
 .frase3{
