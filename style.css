@@ -291,6 +291,25 @@ body{
     color:#4cfbb4 ;
 }
 
+.botao-video{
+    position: relative;
+    left: 35%;
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 22px;
+    border-color: #642C93;
+    border-style: solid;
+    border-width: 2px;
+    width: 86px;
+    background-color: #4cfbb4;
+    cursor: pointer;
+}
+
+.botao-video:hover{
+    background-color: #642C93;
+    color:#4cfbb4 ;
+}
+
 .frase4{
     padding: 2rem;
     text-align: center;
