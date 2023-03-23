@@ -8,57 +8,45 @@ body{
     background-color: yellow;
 }
 
-
 .logobn {
-    margin-left: 97%; 
+    left: -3.5%; 
 }
 
 .botao-voltar {
     left: 37%;
 }
 
-.lista-dois-footer {
-      left: 75%;
-}
+
 
 .botaoenviar {
-    left: 45%;
+    left: 40%;
+    border-width: 3px;
+    width: 5.875rem;
 }
 
 .mailto {
-    padding-left: 39%;
+    padding-left: 21%;
+}
+
+.lista-um-footer {
+    left: 25%;
 }
 
 .lista-dois-footer {
     margin: 0.3rem;
-
-}
-
-.lista-um-footer {
-    left: 64%;
+    left: 65%;
 }
 
 .formulario {
     margin: 2rem;
-    padding: 0rem;
+    padding: 2rem;
+    width: 35%;
+    margin-left: 52%;
 }
 
 .textfield {
     border-width: 4px;
-}
-
-.formulario {
-    width: 70%;
-
-}
-
-.textfield {
-    width: 93%;
-}
-
-.botaoenviar {
-    border-width: 3px;
-    width: 93px;
+    width: 87%;
 }
 
 .socialmedia {
@@ -78,7 +66,6 @@ body{
 .googleplay {
     width: 9.75rem;
     height: 2.75rem;
-
 }
 
 .applestore {
@@ -86,28 +73,6 @@ body{
     height: 2.75rem;
 }
 
-
-
-    left: 33%;
-}
-
-.mailto {
-    padding-left: 14%;
-}
-
-.formulario{
-    width: 35%;
-    margin-left: 52%;
-}
-
-.textfield{
-    margin-left: 4%;
-}
-
 .botao-video{
     display: none;
 }
-
-
-
-
