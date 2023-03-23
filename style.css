@@ -181,6 +181,7 @@ body{
     color:#642C93;
     text-align: center;
     font-weight: bold;
+    padding: 2rem;
 }
 
 .formulario{
@@ -229,7 +230,7 @@ body{
 }
 
 .textfield{
-    width: 87%;
+    width: 84%;
     height: 2.25rem;
     border-radius: 20px;
     border-style: solid;
@@ -272,11 +273,15 @@ body{
     align-items: center;
 }
 
+.caixaemail b {
+    font-weight: bold;
+}
+
 .botaoenviar{
     position: relative;
     left: 34%;
     padding: 8px;
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 22px;
     border-color: #642C93;
     border-style: solid;
