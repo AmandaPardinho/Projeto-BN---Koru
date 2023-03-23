@@ -8,15 +8,42 @@ body{
     background-color: yellow;
 }
 
-.logobn {
-    left: -3.5%; 
+.texto-principal{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 31%;
 }
 
-.botao-voltar {
-    left: 37%;
+.frase3{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
 }
 
+.formulario {
+    margin: 2rem;
+    padding: 2rem;
+    width: 35%;
+    margin-left: 52%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
 
+.textfield {
+    border-width: 4px;
+    width: 87%;
+}
+
+.mailto {
+    padding-left: 21%;
+}
 
 .botaoenviar {
     left: 40%;
@@ -24,8 +51,37 @@ body{
     width: 5.875rem;
 }
 
-.mailto {
-    padding-left: 21%;
+.frase4 {
+    font-size: 21px;
+}
+
+.botao-video{
+    display: none;
+}
+
+.celular {
+    width: 12rem;
+    height: 21rem;
+    left: 5%;
+    top: -3%;
+}
+
+.googleplay {
+    width: 9.75rem;
+    height: 2.75rem;
+    left: 1.5%;
+    top: 85%;
+}
+
+.applestore {
+    width: 9.75rem;
+    height: 2.75rem;
+    left: 18%;
+    top: 85%;
+}
+
+.botao-voltar {
+    left: 37%;
 }
 
 .lista-um-footer {
@@ -37,42 +93,12 @@ body{
     left: 65%;
 }
 
-.formulario {
-    margin: 2rem;
-    padding: 2rem;
-    width: 35%;
-    margin-left: 52%;
-}
-
-.textfield {
-    border-width: 4px;
-    width: 87%;
-}
-
 .socialmedia {
     left: 92%;
 }
 
-.celular {
-    width: 12rem;
-    height: 21rem;
-    left: 5%;
+.logobn {
+    left: -3.5%; 
 }
 
-.frase4 {
-    font-size: 21px;
-}
-
-.googleplay {
-    width: 9.75rem;
-    height: 2.75rem;
-}
-
-.applestore {
-    width: 9.75rem;
-    height: 2.75rem;
-}
-
-.botao-video{
-    display: none;
 }
