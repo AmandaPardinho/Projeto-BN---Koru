@@ -1,7 +1,8 @@
-  
+
 body{
     background: linear-gradient(#fff, #455ba8);
     color: #f4f7fb;
+    font-family: 'Raleway', sans-serif;
 }
 
 .container{
@@ -158,34 +159,40 @@ body{
 .titulo{
     color: #642C93;
     font-size: 2rem;
+    text-shadow: -2px 1px 2px #642C93;
+    font-family: 'Raleway';
 }
 
 .titulo-2{
     color: #642C93;
     margin-top: 1rem;
+    font-family: 'Raleway';
 }
 
 .texto-principal{
     margin: 1rem;
     padding: 2rem;
-    border-color: blue;
-    border-style: solid;
-    border-width: 4px;
+    /* border-color: blue; */
+    /* border-style: solid; */
+    /* border-width: 4px; */
     /* padding-top: 0rem; */
-    margin-top: 5rem;
+    margin-top: 0rem;
     font-weight: bold;
     color: #642C93;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 .frase3{
     color:#642C93;
     text-align: center;
     font-weight: bold;
-    padding: 3rem;
+    padding: 1rem;
     font-size: 1.2rem;
-    border-color: #fff;
+    /* border-color: #fff;
     border-style: solid;
-    border-width: 0.5rem;
+    border-width: 0.5rem; */
+    margin-top: -1rem;
 }
 
 .formulario{
@@ -301,8 +308,7 @@ body{
 }
 
 .video{
-    padding: 1.5rem;
-    
+    margin-top: 4rem;
 }
 
 .botao-video{
@@ -315,6 +321,8 @@ body{
     border-width: 2px;
     background-color: #4cfbb4;
     cursor: pointer;
+    font-weight: bolder;
+    text-decoration: none;
 }
 
 .botao-video:hover{
@@ -326,6 +334,7 @@ body{
     padding: 3rem;
     text-align: center;
     font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .container-celular{
@@ -380,6 +389,8 @@ body{
     position: relative;
     justify-content: center;
     align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
 }
 
 .frase-final section{
