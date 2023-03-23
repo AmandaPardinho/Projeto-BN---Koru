@@ -22,15 +22,16 @@ body{
 }
 
 .botaoenviar {
-    left: 42%;
+    left: 33%;
 }
 
 .mailto {
-    padding-left: 30%;
+    padding-left: 14%;
 }
 
 .formulario{
     width: 35%;
+    margin-left: 52%;
 }
 
 .textfield{
