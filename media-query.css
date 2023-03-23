@@ -88,12 +88,25 @@ body{
 
 
 
+    left: 33%;
 }
 
+.mailto {
+    padding-left: 14%;
+}
 
+.formulario{
+    width: 35%;
+    margin-left: 52%;
+}
 
+.textfield{
+    margin-left: 4%;
+}
 
-
+.botao-video{
+    display: none;
+}
 
 
 

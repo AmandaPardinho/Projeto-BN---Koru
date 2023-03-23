@@ -1,7 +1,8 @@
-  
+
 body{
     background: linear-gradient(#fff, #455ba8);
     color: #f4f7fb;
+    font-family: 'Raleway', sans-serif;
 }
 
 .container{
@@ -28,7 +29,7 @@ body{
     top: 1rem;
     left: 2rem;
     font-size: 60px;
-    color: white;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -158,34 +159,49 @@ body{
 .titulo{
     color: #642C93;
     font-size: 2rem;
+    text-shadow: -2px 1px 2px #642C93;
+    font-family: 'Raleway';
 }
 
 .titulo-2{
     color: #642C93;
     margin-top: 1rem;
+    font-family: 'Raleway';
 }
 
 .texto-principal{
-    margin: 2rem;
+    margin: 1rem;
     padding: 2rem;
-    border-color: blue;
-    border-style: solid;
-    border-width: 4px;
+    /* border-color: blue; */
+    /* border-style: solid; */
+    /* border-width: 4px; */
     /* padding-top: 0rem; */
-    margin-top: 9rem;
+    margin-top: 0rem;
+    font-weight: bold;
+    color: #642C93;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 .frase3{
     color:#642C93;
     text-align: center;
     font-weight: bold;
+    padding: 1rem;
+    font-size: 1.2rem;
+    /* border-color: #fff;
+    border-style: solid;
+    border-width: 0.5rem; */
+    margin-top: -1rem;
 }
 
 .formulario{
     background-color: #187795;
     margin: 2rem;
     padding: 1rem;
-    width: 73%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border-radius: 22px;
     border-style: solid;
     border-color: #642C93;
@@ -193,10 +209,11 @@ body{
     box-shadow: -7px 1px 32px 1px #642C93;
 }
 
+
+
 .formulario input{
     border-radius: 59;
     margin: 0.5rem;
-    display: flex;
 }
 
 .formulario label{
@@ -224,14 +241,14 @@ body{
 }
 
 .textfield{
-    width: 83%;
+    width: 84%;
     height: 2.25rem;
     border-radius: 20px;
     border-style: solid;
     border-width: 2px;
     border-color: #642C93;
-    padding-left: 14px;
-    padding-right: 14px;
+    padding-left: 0.875rem;
+    padding-right: 0.875rem;
 }
 
 .textfield:focus{
@@ -267,11 +284,15 @@ body{
     align-items: center;
 }
 
+.caixaemail b {
+    font-weight: bold;
+}
+
 .botaoenviar{
     position: relative;
     left: 34%;
     padding: 8px;
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 22px;
     border-color: #642C93;
     border-style: solid;
@@ -286,10 +307,34 @@ body{
     color:#4cfbb4 ;
 }
 
+.video{
+    margin-top: 4rem;
+}
+
+.botao-video{
+    position: relative;
+    left: 24%;
+    padding: 0.5rem;
+    border-radius: 1.5rem;
+    border-color: #642C93;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #4cfbb4;
+    cursor: pointer;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.botao-video:hover{
+    background-color: #642C93;
+    color:#4cfbb4 ;
+}
+
 .frase4{
-    padding: 2rem;
+    padding: 3rem;
     text-align: center;
-    font-size: 22px;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .container-celular{
@@ -334,6 +379,28 @@ body{
     position: absolute;
     top: 12.5rem;
     left: 55%;
+}
+
+.frase-final{
+    /*border: none;
+    padding: 5rem;*/
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.frase-final section{
+    display: block;
+    position: absolute;
+    padding: 3rem;
+    padding-bottom: 10rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
 footer{
