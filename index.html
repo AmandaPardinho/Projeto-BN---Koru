@@ -59,11 +59,11 @@
                     <p class="frase2">Fale com o time comercial</p>
                 </fieldset>
                 <fieldset>
-                    <input type="text" class="textfield" name="nome" placeholder="Nome">                    
-                    <input type="text" class="textfield" name="empresa" placeholder="Empresa*">                    
-                    <input type="text" class="textfield" name="setor" placeholder="Setor">                    
-                    <input type="text" class="textfield" name="email" placeholder="E-mail*">                    
-                    <input type="text" class="textfield" name="whatsapp" placeholder="WhatsApp*">                    
+                    <input type="text" class="textfield" name="nome" aria-label="nome" placeholder="Nome">                    
+                    <input type="text" class="textfield" name="empresa"aria-label="empresa" placeholder="Empresa*">                    
+                    <input type="text" class="textfield" name="setor" aria-label="setor" placeholder="Setor">                    
+                    <input type="email" class="textfield" name="email" aria-label="email" placeholder="E-mail*">                    
+                    <input type="number" id="campoNumero" class="textfield" name="whatsapp" aria-label="whatsapp" placeholder="WhatsApp*">                    
                     <textarea name="mensagem" style="resize: none" class="textfield" cols="20" rows="10" placeholder="Digite sua mensagem aqui"></textarea>
                 </fieldset>
                 <fieldset class="caixaemail">  
@@ -72,17 +72,17 @@
                 <fieldset>
                     <legend class="anuncios">Aceita promoções e anúncios de nossos parceiros?</legend>
                     <div class="checkboxemail">
-                        <input type="checkbox" name="email">
+                        <input type="checkbox" aria-label="E-mail" name="email">
                         <label>E-mail</label>
                     </div>
                     <div class="checkboxwhatsapp">
-                        <input type="checkbox" name="whatsapp">
+                        <input type="checkbox" aria-label="WhatsApp" name="whatsapp">
                         <label>WhatsApp</label>
                     </div>
                 </fieldset>
                 <fieldset>
                     <div class="termos">
-                        <input type="checkbox" name="termos">
+                        <input type="checkbox" aria-label="termos" name="termos">
                         <label>Concordo com os Termos de Uso e Política de Privacidade*</label>
                     </div>
                     <div class="caixaemail">
@@ -119,13 +119,13 @@
         </div>
         <div class="menu-footer">
             <ul class="lista-um-footer">
-                <li>Menu</li>
-                <li>Suporte</li>
-                <li>Sobre</li> 
+                <li class="hoverFooter">Menu</li>
+                <li class="hoverFooter">Suporte</li>
+                <li class="hoverFooter">Sobre</li> 
             </ul>
             <ul class="lista-dois-footer">
-                <li>Termos de Uso</li>
-                <li>Privacidade</li>
+                <li class="hoverFooter">Termos de Uso</li>
+                <li class="hoverFooter">Privacidade</li>
             </ul>
             <div id="redes-sociais" class="socialmedia">
                 <figure>

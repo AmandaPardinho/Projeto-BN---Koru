@@ -53,6 +53,21 @@ body{
     transition: 0.3s;
 }
 
+#forms:hover{
+    color: #642C93;
+    transition: 0.3s;
+}
+
+#social-media:hover{
+    color: #642C93;
+    transition: 0.3s;
+}
+
+#baixar-app:hover{
+    color: #642C93;
+    transition: 0.3s;
+}
+
 .leitor{
     display: block;
     position: absolute;
@@ -250,6 +265,11 @@ body{
     outline: 0;
 }
 
+#campoNumero::-webkit-outer-spin-button, 
+#campoNumero::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
 .caixaemail{
     padding: 3%;
 }
@@ -257,6 +277,11 @@ body{
 .mailto{
     color: #4cfbb4;
     padding-left: 13%;
+}
+
+.mailto:hover{
+    color:#642C93;
+    transition: 0.3s;
 }
 
 .anuncios{
@@ -299,6 +324,7 @@ body{
 .botaoenviar:hover{
     background-color: #642C93;
     color:#4cfbb4 ;
+    transition: 0.3s;
 }
 
 .video{
@@ -322,6 +348,7 @@ body{
 .botao-video:hover{
     background-color: #642C93;
     color:#4cfbb4 ;
+    transition: 0.3s;
 }
 
 .frase4{
@@ -434,6 +461,7 @@ footer{
     background-color: #642C93;
     color: #4cfbb4;
     border-color: #4cfbb4;
+    transition: 0.3s;
 }
 
 .menu-footer{
@@ -475,6 +503,11 @@ footer{
 
 .lista-dois-footer li{
     padding: 0.4rem;
+}
+
+.hoverFooter:hover{
+    color: #642C93;
+    transition: 0.3s;
 }
 
 .socialmedia{

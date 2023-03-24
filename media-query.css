@@ -66,15 +66,15 @@
 .googleplay {
     width: 9.75rem;
     height: 2.75rem;
-    left: 1.5%;
-    top: 85%;
+    left: 0%;
+    top: 0%;
 }
 
 .applestore {
     width: 9.75rem;
     height: 2.75rem;
-    left: 20%;
-    top: 85%;
+    left: 49%;
+    top: 0%;
 }
 
 .frase-final{
@@ -101,5 +101,19 @@
 .logobn {
     left: -3.5%; 
 }
+
+.lojasapp{
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+    position: relative;
+    margin: 2rem;
+    margin-top: 20rem;
+    width: 17rem;
+    height: 0rem;
+    padding: 3%;
+}
+
+
 
 }
