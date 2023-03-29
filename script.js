@@ -30,9 +30,9 @@ fecharMenuBaixarApp.onclick = closeNav;
 
 
 //função para enviar o formulário por e-mail
-const nodemailer = require('nodemailer');
-function enviarForms(){    
 
+function enviarForms(){    
+    const nodemailer = require('nodemailer');
     let transporter = nodemailer.createTransport({
         service: 'gmail',
         auth:{
