@@ -60,3 +60,7 @@ function enviarForms(){
         }
     });
 }
+
+//enviando o e-mail ao clicar no botão enviar
+var enviarEmail = document.querySelector('#enviarEmail');
+enviarEmail.onclick = enviarForms();
