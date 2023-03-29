@@ -28,3 +28,35 @@ fecharMenuRedes.onclick = closeNav;
 var fecharMenuBaixarApp = document.querySelector('#baixar-app');
 fecharMenuBaixarApp.onclick = closeNav;
 
+//função para enviar o formulário por e-mail
+function enviarForms(){
+    const nodemailer = require('nodemailer');
+
+    let transporter = nodemailer.createTransport({
+        service: 'gmail',
+        auth:{
+            user: 'projeto.korubn@gmail.com',
+            pass: 'grUp04d&v'
+        }
+    });
+
+    let opcaoEmail = {
+        from: 'projeto.korubn@gmail.com',
+        to: 'projeto.korubn@gmail.com',
+        subject: 'Formulário de Contato',
+        text: `Nome: ${document.getElementById('nome').value}
+        \nEmpresa: ${document.getElementById('empresa').value}
+        \nSetor: ${document.getElementById('setor').value}
+        \nEmail: ${document.getElementById('email').value}
+        \nWhatsApp: ${document.getElementById('campoNumero').value}
+        \nMensagem: ${document.getElementById('mensagem').value}`
+    };
+
+    transporter.sendMail(opcaoEmail, function(error, info){
+        if(error){
+            alert(error + ' Falha ao enviar o formulário');
+        }else{
+            alert('Formulário enviado com sucesso! ' + info.response)
+        }
+    });
+}
