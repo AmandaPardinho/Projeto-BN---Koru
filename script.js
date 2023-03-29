@@ -55,7 +55,7 @@ function enviarForms(){
 
     transporter.sendMail(mailOption, function(error, info){
         if(error){
-            console.log(' Falha ao enviar o formulário');
+            alert(' Falha ao enviar o formulário');
         }else{
             alert('Formulário enviado com sucesso! ' + info.response)
         }
