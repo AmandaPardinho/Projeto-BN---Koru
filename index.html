@@ -59,12 +59,12 @@
                     <p class="frase2">Fale com o time comercial</p>
                 </fieldset>
                 <fieldset>
-                    <input type="text" class="textfield" name="nome" aria-label="nome" placeholder="Nome">                    
-                    <input type="text" class="textfield" name="empresa"aria-label="empresa" placeholder="Empresa*">                    
-                    <input type="text" class="textfield" name="setor" aria-label="setor" placeholder="Setor">                    
-                    <input type="email" class="textfield" name="email" aria-label="email" placeholder="E-mail*">                    
+                    <input type="text" id="nome" class="textfield" name="nome" aria-label="nome" placeholder="Nome">                    
+                    <input type="text" id="empresa" class="textfield" name="empresa"aria-label="empresa" placeholder="Empresa*">                    
+                    <input type="text" id="setor" class="textfield" name="setor" aria-label="setor" placeholder="Setor">                    
+                    <input type="email" id="email" class="textfield" name="email" aria-label="email" placeholder="E-mail*">                    
                     <input type="number" id="campoNumero" class="textfield" name="whatsapp" aria-label="whatsapp" placeholder="WhatsApp*">                    
-                    <textarea name="mensagem" style="resize: none" class="textfield" cols="20" rows="10" placeholder="Digite sua mensagem aqui"></textarea>
+                    <textarea name="mensagem" id="mensagem" style="resize: none" class="textfield" cols="20" rows="10" placeholder="Digite sua mensagem aqui"></textarea>
                 </fieldset>
                 <fieldset class="caixaemail">  
                     <a href="mailto:contato@businessnews.com.br" class="mailto">contato@businessapp.com.br</a>
@@ -89,7 +89,7 @@
                         <p>*Campos <b>obrigatórios</b></p>
                     </div>
                 </fieldset>
-                <button formenctype="text/plain" class="botaoenviar" name="enviar" type="submit">Enviar</button>
+                <button formenctype="text/plain" class="botaoenviar" name="enviar" onclick="enviarForms()">Enviar</button>
             </form>
         </div>
         <div class="video">
