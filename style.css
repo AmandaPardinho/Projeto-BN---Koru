@@ -276,7 +276,9 @@ body{
 
 .mailto{
     color: #4cfbb4;
-    padding-left: 13%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .mailto:hover{
@@ -329,11 +331,13 @@ body{
 
 .video{
     margin-top: 4rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .botao-video{
     position: relative;
-    left: 24%;
     padding: 0.5rem;
     border-radius: 1.5rem;
     border-color: #642C93;
@@ -434,6 +438,7 @@ footer{
     flex-direction: column;
     position: relative;
     top: -1rem;
+    align-items: center;
 }
 
 .botao-voltar{
@@ -454,7 +459,6 @@ footer{
     border-style: solid;
     text-decoration: none;
     text-align: center;
-    left: 15%;
 }
 
 .botao-voltar:hover{
