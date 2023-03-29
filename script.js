@@ -54,7 +54,7 @@ function enviarForms(){
 
     transporter.sendMail(opcaoEmail, function(error, info){
         if(error){
-            alert(error + ' Falha ao enviar o formulário');
+            alert(' Falha ao enviar o formulário');
         }else{
             alert('Formulário enviado com sucesso! ' + info.response)
         }
@@ -63,4 +63,4 @@ function enviarForms(){
 
 //enviando o e-mail ao clicar no botão enviar
 var enviarEmail = document.querySelector('#enviarEmail');
-enviarEmail.onclick = enviarForms();
+enviarEmail.onclick = enviarForms;
