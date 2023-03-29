@@ -42,7 +42,7 @@ function enviarForms(){
 
     let opcaoEmail = {
         from: 'projeto.korubn@gmail.com',
-        to: 'projeto.korubn@gmail.com',
+        to: 'amanda.m.pardinho@gmail.com',
         subject: 'Formulário de Contato',
         text: `Nome: ${document.getElementById('nome').value}
         \nEmpresa: ${document.getElementById('empresa').value}
