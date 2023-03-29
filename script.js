@@ -28,10 +28,11 @@ fecharMenuRedes.onclick = closeNav;
 var fecharMenuBaixarApp = document.querySelector('#baixar-app');
 fecharMenuBaixarApp.onclick = closeNav;
 
-//função para enviar o formulário por e-mail
-function enviarForms(){
-    const nodemailer = require('nodemailer');
 
+//função para enviar o formulário por e-mail
+
+function enviarForms(){    
+    const nodemailer = require('nodemailer');
     let transporter = nodemailer.createTransport({
         service: 'gmail',
         auth:{
@@ -40,7 +41,7 @@ function enviarForms(){
         }
     });
 
-    let opcaoEmail = {
+    let mailOption = {
         from: 'projeto.korubn@gmail.com',
         to: 'projeto.korubn@gmail.com',
         subject: 'Formulário de Contato',
@@ -52,9 +53,9 @@ function enviarForms(){
         \nMensagem: ${document.getElementById('mensagem').value}`
     };
 
-    transporter.sendMail(opcaoEmail, function(error, info){
+    transporter.sendMail(mailOption, function(error, info){
         if(error){
-            alert(error + ' Falha ao enviar o formulário');
+            console.log(' Falha ao enviar o formulário');
         }else{
             alert('Formulário enviado com sucesso! ' + info.response)
         }
@@ -63,4 +64,4 @@ function enviarForms(){
 
 //enviando o e-mail ao clicar no botão enviar
 var enviarEmail = document.querySelector('#enviarEmail');
-enviarEmail.onclick = enviarForms();
+enviarEmail.onclick = enviarForms;
