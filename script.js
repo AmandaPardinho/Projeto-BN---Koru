@@ -29,17 +29,17 @@ var fecharMenuBaixarApp = document.querySelector('#baixar-app');
 fecharMenuBaixarApp.onclick = closeNav;
 
 //evento para disparar mensagem de saída da página
-document.addEventListener('mouseleave', (event) =>{
-    alert('Você já vai embora? T-T');
-});
+// document.addEventListener('mouseleave', (event) =>{
+//     alert('Você já vai embora? T-T');
+// });
 
-/*enviar e-mail
+//enviar e-mail
 function enviarForms(){
     alert("Formulário enviado com sucesso!");
 }
 
 var enviarEmail = document.querySelector('#enviarEmail');
-enviarEmail.onclick = enviarForms;*/
+enviarEmail.onclick = enviarForms;
 
 /*
 //função para enviar o formulário por e-mail
@@ -72,12 +72,12 @@ function enviarForms(){
             alert('Formulário enviado com sucesso! ' + info.response)
         }
     });
-}
+}*/
 
-//enviando o e-mail ao clicar no botão enviar
+/* enviando o e-mail ao clicar no botão enviar
 var enviarEmail = document.querySelector('#enviarEmail');
-enviarEmail.onclick = enviarForms;*/
-
+enviarEmail.onclick = enviarForms;
+*/
 
 
 
