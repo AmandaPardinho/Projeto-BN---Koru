@@ -2,7 +2,12 @@
 
 /*INÍCIO CÓDIGO DESKTOP*/
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+
+@media screen and (min-width: 1024px) {
 
 body{
     width: 100%;
@@ -67,6 +72,7 @@ body{
 .frase4 {
     font-size: 1.5rem;
     margin-bottom: 4rem;
+    margin-top: -11rem;
 }
 
 .botao-video{
@@ -104,12 +110,14 @@ body{
 }
 
 .lista-um-footer {
-    left: 25%;
+    left: 40rem;
+    margin-top: 2rem;
 }
 
 .lista-dois-footer {
     margin: 0.3rem;
-    left: 65%;
+    left: 47rem;
+    margin-top: 2rem;
 }
 
 .socialmedia {
@@ -126,7 +134,7 @@ body{
     border-width: 2px;
     position: relative;
     margin: 2rem;
-    margin-top: 22rem;
+    margin-top: 23rem;
     width: 6rem;
     /* height: 2rem; */
     /* padding: 3%; */
@@ -140,7 +148,7 @@ body{
     border-style: solid;
     /* border-color: red; */
     /* border-width: 2px; */
-    margin-top: auto;
+    margin-top: -467px;
 }
 
 .container-celular{
@@ -148,11 +156,11 @@ body{
     flex-direction: column;
     position: relative;
     height: 25rem;
-    top: -64.5rem;
+    top: -65.5rem;
     padding: 0.5rem;
     border: 0.1rem;
     margin: 0.4rem;
-    margin-left: 7%;
+    margin-left: 8%;
 }
 
 
