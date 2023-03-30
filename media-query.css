@@ -105,8 +105,8 @@ body{
     margin-bottom: 4rem;
 }
 
-.botao-voltar {
-    /* left: 37%; */
+.botao-footer:hover {
+    transform: scale(1.5);
 }
 
 .lista-um-footer {
