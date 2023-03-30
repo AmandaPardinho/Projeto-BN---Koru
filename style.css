@@ -407,6 +407,10 @@ body{
     left: 55%;
 }
 
+.video{
+    display: none;
+}
+
 .frase-final{
     /*border: none;
     padding: 5rem;*/
