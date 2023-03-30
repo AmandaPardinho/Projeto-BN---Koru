@@ -55,11 +55,11 @@ body{
 }
 
 .mailto {
-    padding-left: 21%;
+    /* padding-left: 21%; */
 }
 
 .botaoenviar {
-    left: 40%;
+    /* left: 40%; */
     border-width: 3px;
     width: 5.875rem;
 }
@@ -100,7 +100,7 @@ body{
 }
 
 .botao-voltar {
-    left: 37%;
+    /* left: 37%; */
 }
 
 .lista-um-footer {
