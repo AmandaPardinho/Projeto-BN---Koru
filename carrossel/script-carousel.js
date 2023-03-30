@@ -44,14 +44,14 @@ function carousel() {
   }
 
   function unhover() {
-    a = setInterval(moveFirst, 10);
-    b = setInterval(moveSecond, 10);
+    a = setInterval(moveFirst, 30);
+    b = setInterval(moveSecond, 30);
   }
 
   clone();
 
-  let a = setInterval(moveFirst, 10);
-  let b = setInterval(moveSecond, 10);
+  let a = setInterval(moveFirst, 20);
+  let b = setInterval(moveSecond, 20);
 
   carouselSlider.addEventListener("mouseenter", hover);
   carouselSlider.addEventListener("mouseleave", unhover);
