@@ -28,9 +28,21 @@ fecharMenuRedes.onclick = closeNav;
 var fecharMenuBaixarApp = document.querySelector('#baixar-app');
 fecharMenuBaixarApp.onclick = closeNav;
 
+//evento para disparar mensagem de saída da página
+document.addEventListener('mouseleave', (event) =>{
+    alert('Você já vai embora? T-T');
+});
 
+/*enviar e-mail
+function enviarForms(){
+    alert("Formulário enviado com sucesso!");
+}
+
+var enviarEmail = document.querySelector('#enviarEmail');
+enviarEmail.onclick = enviarForms;*/
+
+/*
 //função para enviar o formulário por e-mail
-
 function enviarForms(){    
     const nodemailer = require('nodemailer');
     let transporter = nodemailer.createTransport({
@@ -64,18 +76,11 @@ function enviarForms(){
 
 //enviando o e-mail ao clicar no botão enviar
 var enviarEmail = document.querySelector('#enviarEmail');
-enviarEmail.onclick = enviarForms;
+enviarEmail.onclick = enviarForms;*/
 
-//evento para disparar mensagem em um alert
-/*let screenLog = document.querySelector("#screen");
-document.addEventListener("mousemove", logKey);
-function logKey(e){
-    screenLog.innerHTML = `${e.clientX}, ${e.clientY}`
-    if(e.clientY === 0){
-        document.addEventListener('mouseleave', (event) =>{
-            alert('Calma, volta aqui que a Amanda tem um recado para você!');
-        });
-    }
-}*/
+
+
+
+
 
 
