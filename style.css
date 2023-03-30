@@ -414,8 +414,16 @@ body{
     position: relative;
     justify-content: center;
     align-items: center;
+    margin-top: 8rem;
+    margin-bottom: 10rem;
+}
+
+.carousel-container{
     margin-top: 2rem;
-    margin-bottom: 3rem;
+}
+
+.section-frase-carousel{
+    
 }
 
 .frase-final section{

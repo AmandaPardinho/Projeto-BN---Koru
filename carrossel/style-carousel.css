@@ -7,8 +7,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
-    background-color: #222;
+    /* min-height: 100vh; */
+    /* background-color: #222; */
+    /* overflow: hidden; */
   }
   
   ul {
@@ -20,29 +21,30 @@ body {
   .carousel {
     position: relative;
     overflow: hidden;
-    background-color: rgb(212, 251, 0);
+    background-color: #455ba8;
     background: linear-gradient(
-      10deg,
-      rgba(212, 251, 0, 0.5) 0%,
-      rgba(255, 0, 245, 0.5) 100%
+      36deg,
+      rgba(69, 91, 168, 0.5) 0%,
+      /* rgba(255, 0, 245, 0.5) 100% */
     );
-    box-shadow: 5px 10px 30px rgba(255, 255, 255, 0.15);
-    border-radius: 20px;
+    /* box-shadow: 5px 10px 30px rgba(255, 255, 255, 0.15); */
+    border-radius: 5px;
   }
   
   .carousel__slider {
     position: relative;
     display: flex;
     align-items: center;
-    width: 80vw;
-    border: 2px solid #333;
-    height: 200px;
+    width: 600px;
+    /* border: 2px solid #333; */
+    height: 150px;
+    padding-right: 500px;
   }
   
   .carousel__list {
     position: absolute;
     width: 100%;
-    top: 50%;
+    top: 48%;
     left: 0;
     transform: translateY(-50%);
     display: flex;
@@ -57,7 +59,7 @@ body {
     width: 100px;
     height: 100px;
     border: 2px solid #333;
-    border-radius: 50px;
+    border-radius: 80px;
     box-sizing: border-box;
     background-color: rgba(255, 255, 255, 0.3);
     cursor: pointer;
