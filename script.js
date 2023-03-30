@@ -65,3 +65,8 @@ function enviarForms(){
 //enviando o e-mail ao clicar no botão enviar
 var enviarEmail = document.querySelector('#enviarEmail');
 enviarEmail.onclick = enviarForms;
+
+document.addEventListener('mouseleave', (event) =>{
+    alert('Calma, volta aqui que a Amanda tem um recado para você!');
+});
+
