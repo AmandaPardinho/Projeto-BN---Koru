@@ -11,9 +11,9 @@ body{
 .texto-principal{
     display: flex;
     flex-direction: column;
-    /* position: relative; */
-    top: 18rem;
-    left: 4rem;
+    position: relative;
+    top: 10rem;
+    left: 3rem;
     /* justify-content: center; */
     /* align-items: center; */
     width: 31%;
@@ -24,8 +24,8 @@ body{
 .frase3{
     display: flex;
     flex-direction: column;
-    /* position: relative; */
-    top: 20rem;
+    position: relative;
+    top: 9rem;
     left: 3rem;
     /* justify-content: center; */
     /* align-items: center; */
@@ -38,13 +38,16 @@ body{
     margin: 2rem;
     padding: 2rem;
     width: 40vw;
-    margin-left: 30%; 
+    /* margin-left: 30%; */
     display: flex;
-    position: relative;
+    position: sticky;
     flex-direction: column;
-    margin-top: -19rem;
-    left: 12rem
+    margin-top: -13rem;
+    left: 72rem;
+    /* padding-left: 3rem; */
+    /* margin-right: 21%; */
 }
+
 
 .textfield {
     border-width: 4px;
@@ -135,8 +138,8 @@ body{
     /* position: absolute; */
     flex-direction: column;
     border-style: solid;
-    border-color: red;
-    border-width: 2px;
+    /* border-color: red; */
+    /* border-width: 2px; */
     margin-top: auto;
 }
 
