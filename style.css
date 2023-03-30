@@ -419,7 +419,7 @@ body{
 }
 
 .carousel-container{
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 /* .section-frase-carousel{
@@ -434,6 +434,10 @@ body{
     text-align: center;
     font-weight: bold;
     font-size: 1.2rem;
+}
+
+.frase-final h3{
+    padding: 3rem;
 }
 
 footer{
