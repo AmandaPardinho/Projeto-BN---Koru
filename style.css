@@ -310,9 +310,15 @@ body{
     font-weight: bold;
 }
 
+.btn-enviar-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .botaoenviar{
     position: relative;
-    left: 34%;
+    /* left: 34%; */
     padding: 8px;
     margin-top: 10px;
     border-radius: 22px;
