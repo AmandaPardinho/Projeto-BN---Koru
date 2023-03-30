@@ -429,7 +429,7 @@ body{
 .frase-final section{
     display: block;
     position: absolute;
-    padding: 3rem;
+    /* padding: 3rem; */
     padding-bottom: 10rem;
     text-align: center;
     font-weight: bold;
