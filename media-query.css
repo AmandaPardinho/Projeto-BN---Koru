@@ -18,7 +18,7 @@ body{
     /* align-items: center; */
     width: 31%;
     font-size: 1.8rem;
-    margin-left: 5rem;
+    margin-left: 3rem;
 }
 
 .frase3{
@@ -31,19 +31,19 @@ body{
     /* align-items: center; */
     width: 40%;
     font-size: 1.6rem;
-    margin-left: 3rem;
+    margin-left: 1rem;
 }
 
 .formulario {
     margin: 2rem;
-padding: 2rem;
-width: 40vw;
-margin-left: 30%; 
-display: flex;
-position: relative;
-flex-direction: column;
-margin-top: -17rem;
-    left: 9rem
+    padding: 2rem;
+    width: 40vw;
+    margin-left: 30%; 
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-top: -19rem;
+    left: 12rem
 }
 
 .textfield {
@@ -78,17 +78,18 @@ margin-top: -17rem;
 }
 
 .googleplay {
-    width: 9.75rem;
-    height: 2.75rem;
+    width: 11.75rem;
+    height: 3.75rem;
     left: 0%;
     top: 0%;
 }
 
 .applestore {
-    width: 9.75rem;
-    height: 2.75rem;
-    left: 49%;
-    top: 0%;
+    width: 11.75rem;
+    height: 3.75rem;
+    left: 0%;
+    top: 61%;
+    margin-top: 1rem;
 }
 
 .frase-final{
@@ -122,10 +123,10 @@ margin-top: -17rem;
     border-width: 2px;
     position: relative;
     margin: 2rem;
-    margin-top: 20rem;
-    width: 17rem;
-    height: 0rem;
-    padding: 3%;
+    margin-top: 22rem;
+    width: 6rem;
+    /* height: 2rem; */
+    /* padding: 3%; */
 }
 
 .video{
@@ -141,7 +142,7 @@ margin-top: -17rem;
 
 .container-celular{
     top: -43rem;
-    left: 4rem;
+    left: 10rem;
     width: 23rem;
 }
 
