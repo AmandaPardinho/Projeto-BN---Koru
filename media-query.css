@@ -4,28 +4,34 @@
 
 @media screen and (min-width: 768px) {
 
+body{
+    width: 100%;
+}
+
 .texto-principal{
     display: flex;
     flex-direction: column;
-    position: relative;
+    /* position: relative; */
     top: 18rem;
     left: 4rem;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     width: 31%;
     font-size: 1.8rem;
+    margin-left: 5rem;
 }
 
 .frase3{
     display: flex;
     flex-direction: column;
-    position: relative;
+    /* position: relative; */
     top: 20rem;
     left: 3rem;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     width: 40%;
     font-size: 1.6rem;
+    margin-left: 3rem;
 }
 
 .formulario {
@@ -37,7 +43,7 @@ display: flex;
 position: relative;
 flex-direction: column;
 margin-top: -17rem;
-    left: 16rem
+    left: 9rem
 }
 
 .textfield {
@@ -86,7 +92,7 @@ margin-top: -17rem;
 }
 
 .frase-final{
-    margin-top: 7rem;
+    margin-top: 15rem;
 }
 
 .botao-voltar {
@@ -122,8 +128,22 @@ margin-top: -17rem;
     padding: 3%;
 }
 
+.video{
+    display: flex;
+    align-items: center;
+    /* position: absolute; */
+    flex-direction: column;
+    border-style: solid;
+    border-color: red;
+    border-width: 2px;
+    margin-top: auto;
+}
 
-
+.container-celular{
+    top: -43rem;
+    left: 4rem;
+    width: 23rem;
+}
 
 
 }
