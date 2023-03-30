@@ -102,7 +102,7 @@ body{
 } */
 
 .frase-final{
-    margin-top: 15rem;
+    margin-bottom: 4rem;
 }
 
 .botao-voltar {
@@ -163,5 +163,20 @@ body{
     margin-left: 8%;
 }
 
+.carrossel-separado{
+    display: flex;
+    flex-direction: column;
+    position: center;
+    margin-left: 36%;
+    margin-bottom: 10%;
+}
+
+.carrossel-frase{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 36%;
+    margin-bottom: 10%;
+}
 
 }
