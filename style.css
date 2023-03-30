@@ -425,6 +425,7 @@ body{
 
 .carousel-container{
     margin-top: 1rem;
+    width: 100%;
 }
 
 /* .section-frase-carousel{

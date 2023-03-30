@@ -67,15 +67,15 @@ var enviarEmail = document.querySelector('#enviarEmail');
 enviarEmail.onclick = enviarForms;
 
 //evento para disparar mensagem em um alert
-let screenLog = document.querySelector("#screen");
+/*let screenLog = document.querySelector("#screen");
 document.addEventListener("mousemove", logKey);
 function logKey(e){
     screenLog.innerHTML = `${e.clientX}, ${e.clientY}`
-    if(e.clientY === 10){
+    if(e.clientY === 0){
         document.addEventListener('mouseleave', (event) =>{
             alert('Calma, volta aqui que a Amanda tem um recado para você!');
         });
     }
-}
+}*/
 
 

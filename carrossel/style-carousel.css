@@ -7,9 +7,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* min-height: 100vh; */
-    /* background-color: #222; */
-    /* overflow: hidden; */
   }
   
   ul {
@@ -22,21 +19,21 @@ body {
     position: relative;
     overflow: hidden;
     background-color: #455ba8;
-    background: linear-gradient(
+    /*background: linear-gradient(
       36deg,
       rgba(69, 91, 168, 0.5) 0%,
-      /* rgba(255, 0, 245, 0.5) 100% */
+      /* rgba(255, 0, 245, 0.5) 100% 
     );
     /* box-shadow: 5px 10px 30px rgba(255, 255, 255, 0.15); */
     border-radius: 5px;
-    /* width: 1000%; */
+    width: max-content;
   }
   
   .carousel__slider {
     position: relative;
     display: flex;
     align-items: center;
-    width: 600px;
+    width: 2000px;
     /* border: 2px solid #333; */
     height: 150px;
     padding-right: 500px;
@@ -46,7 +43,6 @@ body {
     position: absolute;
     width: 100%;
     top: 48%;
-    left: 0;
     transform: translateY(-50%);
     display: flex;
     align-items: center;
@@ -59,15 +55,15 @@ body {
     justify-content: center;
     width: 100px;
     height: 100px;
-    border: 2px solid #333;
+    /*border: 2px solid #333;*/
     border-radius: 80px;
     box-sizing: border-box;
-    background-color: rgba(255, 255, 255, 0.3);
+    /*background-color: rgba(255, 255, 255, 0.3);*/
     cursor: pointer;
   }
   
   .carousel__item:hover {
     transform: scale(1.1);
     font-size: 30px;
-    background-color: rgba(255, 255, 255, 0.7);
+    /*background-color: rgba(255, 255, 255, 0.7);*/
   }
