@@ -164,18 +164,14 @@ body{
 }
 
 .carrossel-separado{
-    display: flex;
-    flex-direction: column;
-    position: center;
-    margin-left: 36%;
+    text-align: center;
+    margin-top: -6%;
     margin-bottom: 10%;
 }
 
 .carrossel-frase{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    margin-left: 36%;
+    text-align: center;
+    margin-top: -6%;
     margin-bottom: 10%;
 }
 
