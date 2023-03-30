@@ -4,10 +4,13 @@
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 
+    .textfield{
+        width: 94%;
+    }
 }
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
 
 body{
     width: 100%;
