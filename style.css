@@ -1,6 +1,6 @@
 
 body{
-    background: linear-gradient(#fff, #455ba8);
+    background: linear-gradient(#fff 1%, #455ba8 75%);
     color: #f4f7fb;
     font-family: 'Raleway', sans-serif;
 }
