@@ -76,24 +76,24 @@ body{
 .celular {
     width: 12rem;
     height: 21rem;
-    left: 9%;
-    top: -3%;
+    left: 4%;
+    top: 90%;
 }
 
-.googleplay {
+/* .googleplay {
     width: 11.75rem;
     height: 3.75rem;
     left: 0%;
     top: 0%;
-}
+} */
 
-.applestore {
+/* .applestore {
     width: 11.75rem;
     height: 3.75rem;
     left: 0%;
     top: 61%;
     margin-top: 1rem;
-}
+} */
 
 .frase-final{
     margin-top: 15rem;
@@ -144,9 +144,15 @@ body{
 }
 
 .container-celular{
-    top: -43rem;
-    left: 10rem;
-    width: 23rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 25rem;
+    top: -64.5rem;
+    padding: 0.5rem;
+    border: 0.1rem;
+    margin: 0.4rem;
+    margin-left: 7%;
 }
 
 
