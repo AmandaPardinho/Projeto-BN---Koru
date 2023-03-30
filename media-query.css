@@ -4,10 +4,13 @@
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 
+    .textfield{
+        width: 94%;
+    }
 }
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
 
 body{
     width: 100%;
@@ -18,7 +21,7 @@ body{
     flex-direction: column;
     position: relative;
     top: 10rem;
-    left: 3rem;
+    left: 4rem;
     /* justify-content: center; */
     /* align-items: center; */
     width: 31%;
