@@ -42,6 +42,7 @@ function enviarForms(){
     var setor = document.querySelector('#setor').value;
     var email = document.querySelector('#email').value;
     var numero = document.querySelector('#number');
+    //não estou conseguindo pegar o valor do imput do tipo number....
     var mensagem = document.querySelector('#mensagem').value;
 
     if(nome == '' || empresa == '' || email == '' || numero == ''){
