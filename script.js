@@ -34,8 +34,24 @@ fecharMenuBaixarApp.onclick = closeNav;
 // });
 
 //enviar e-mail
+
+
 function enviarForms(){
-    alert("Formulário enviado com sucesso!");
+    var nome = document.querySelector('#nome').value;
+    var empresa = document.querySelector('#empresa').value;
+    var setor = document.querySelector('#setor').value;
+    var email = document.querySelector('#email').value;
+    var numero = document.querySelector('#number');
+    var mensagem = document.querySelector('#mensagem').value;
+
+    if(nome == '' || empresa == '' || email == '' || numero == ''){
+        alert('Por favor complete os campos obrigatórios corretamente!')
+    }else{
+
+        alert("Formulário enviado com sucesso! " + nome);
+        console.log(nome);
+    }
+
 }
 
 var enviarEmail = document.querySelector('#enviarEmail');
